@@ -1,64 +1,70 @@
-export const TYPE_ORDER = ["ST", "LB", "DOC", "PR", "EV"];
+export const TYPE_ORDER = [
+  "ST",
+  "LB",
+  "DOC",
+  "PR",
+  "EV"
+];
 
 export const TYPE_META = {
-  ST: {
-    code: "ST",
-    label: "Bên liên quan",
-    color: "#0f7fe6",
-    bg: "#eaf4ff",
-    border: "#0b63b5",
+  "ST": {
+    "code": "ST",
+    "label": "Bên liên quan",
+    "color": "#0f7fe6",
+    "bg": "#eaf4ff",
+    "border": "#0b63b5"
   },
-  LB: {
-    code: "LB",
-    label: "Cơ sở pháp lý",
-    color: "#c79000",
-    bg: "#fff7db",
-    border: "#9f6f00",
+  "LB": {
+    "code": "LB",
+    "label": "Cơ sở pháp lý",
+    "color": "#c79000",
+    "bg": "#fff7db",
+    "border": "#9f6f00"
   },
-  DOC: {
-    code: "DOC",
-    label: "Tài liệu / hồ sơ",
-    color: "#179b48",
-    bg: "#e8fbef",
-    border: "#117537",
+  "DOC": {
+    "code": "DOC",
+    "label": "Tài liệu / hồ sơ",
+    "color": "#179b48",
+    "bg": "#e8fbef",
+    "border": "#117537"
   },
-  PR: {
-    code: "PR",
-    label: "Quy trình",
-    color: "#f06a00",
-    bg: "#fff0e2",
-    border: "#c95600",
+  "PR": {
+    "code": "PR",
+    "label": "Quy trình",
+    "color": "#f06a00",
+    "bg": "#fff0e2",
+    "border": "#c95600"
   },
-  EV: {
-    code: "EV",
-    label: "Sự kiện",
-    color: "#e24545",
-    bg: "#ffebeb",
-    border: "#bc2f2f",
-  },
+  "EV": {
+    "code": "EV",
+    "label": "Sự kiện",
+    "color": "#e24545",
+    "bg": "#ffebeb",
+    "border": "#bc2f2f"
+  }
 };
 
 export const REL_META = {
-  BASIS_FOR: {
-    label: "Cơ sở cho",
-    color: "#5b6b80",
-    dash: null,
+  "BASIS_FOR": {
+    "label": "Cơ sở cho",
+    "color": "#5b6b80",
+    "dash": null
   },
-  RELATED_TO: {
-    label: "Liên quan",
-    color: "#1a8ff0",
-    dash: null,
+  "RELATED_TO": {
+    "label": "Liên quan",
+    "color": "#1a8ff0",
+    "dash": null
   },
-  TRIGGERS: {
-    label: "Kích hoạt",
-    color: "#ee9b00",
-    dash: null,
+  "TRIGGERS": {
+    "label": "Kích hoạt",
+    "color": "#ee9b00",
+    "dash": null
   },
   "SUPERVISES/RECEIVES": {
-    label: "Quản lý / tiếp nhận",
-    color: "#8457d4",
-    dash: "6 5",
-  },
+    "label": "Quản lý / tiếp nhận",
+    "color": "#8457d4",
+    "dash": "6 5"
+  }
 };
 
 export const RAW_NODES = [
