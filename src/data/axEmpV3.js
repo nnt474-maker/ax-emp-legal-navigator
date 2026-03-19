@@ -1,70 +1,64 @@
-export const TYPE_ORDER = [
-  "ST",
-  "LB",
-  "DOC",
-  "PR",
-  "EV"
-];
+export const TYPE_ORDER = ["ST", "LB", "DOC", "PR", "EV"];
 
 export const TYPE_META = {
-  "ST": {
-    "code": "ST",
-    "label": "Bên liên quan",
-    "color": "#0f7fe6",
-    "bg": "#eaf4ff",
-    "border": "#0b63b5"
+  ST: {
+    code: "ST",
+    label: "Bên liên quan",
+    color: "#0f7fe6",
+    bg: "#eaf4ff",
+    border: "#0b63b5",
   },
-  "LB": {
-    "code": "LB",
-    "label": "Cơ sở pháp lý",
-    "color": "#c79000",
-    "bg": "#fff7db",
-    "border": "#9f6f00"
+  LB: {
+    code: "LB",
+    label: "Cơ sở pháp lý",
+    color: "#c79000",
+    bg: "#fff7db",
+    border: "#9f6f00",
   },
-  "DOC": {
-    "code": "DOC",
-    "label": "Tài liệu / hồ sơ",
-    "color": "#179b48",
-    "bg": "#e8fbef",
-    "border": "#117537"
+  DOC: {
+    code: "DOC",
+    label: "Tài liệu / hồ sơ",
+    color: "#179b48",
+    bg: "#e8fbef",
+    border: "#117537",
   },
-  "PR": {
-    "code": "PR",
-    "label": "Quy trình",
-    "color": "#f06a00",
-    "bg": "#fff0e2",
-    "border": "#c95600"
+  PR: {
+    code: "PR",
+    label: "Quy trình",
+    color: "#f06a00",
+    bg: "#fff0e2",
+    border: "#c95600",
   },
-  "EV": {
-    "code": "EV",
-    "label": "Sự kiện",
-    "color": "#e24545",
-    "bg": "#ffebeb",
-    "border": "#bc2f2f"
-  }
+  EV: {
+    code: "EV",
+    label: "Sự kiện",
+    color: "#e24545",
+    bg: "#ffebeb",
+    border: "#bc2f2f",
+  },
 };
 
 export const REL_META = {
-  "BASIS_FOR": {
-    "label": "Cơ sở cho",
-    "color": "#5b6b80",
-    "dash": null
+  BASIS_FOR: {
+    label: "Cơ sở cho",
+    color: "#5b6b80",
+    dash: null,
   },
-  "RELATED_TO": {
-    "label": "Liên quan",
-    "color": "#1a8ff0",
-    "dash": null
+  RELATED_TO: {
+    label: "Liên quan",
+    color: "#1a8ff0",
+    dash: null,
   },
-  "TRIGGERS": {
-    "label": "Kích hoạt",
-    "color": "#ee9b00",
-    "dash": null
+  TRIGGERS: {
+    label: "Kích hoạt",
+    color: "#ee9b00",
+    dash: null,
   },
   "SUPERVISES/RECEIVES": {
-    "label": "Quản lý / tiếp nhận",
-    "color": "#8457d4",
-    "dash": "6 5"
-  }
+    label: "Quản lý / tiếp nhận",
+    color: "#8457d4",
+    dash: "6 5",
+  },
 };
 
 export const RAW_NODES = [
@@ -707,14 +701,38 @@ export const RAW_NODES = [
   {
     "type": "DOC",
     "id": "DOC-HR-PDPNOTICE",
-    "nameVi": "Thông báo bảo vệ dữ liệu",
-    "nameEn": "Personal Data Protection Notice",
+    "nameVi": "Thông báo bảo vệ dữ liệu (Tổng quát)",
+    "nameEn": "Personal Data Protection Notice (General)",
     "axis": "AX-EMP",
     "category": "DOCUMENT",
     "stPrimarySuggested": "ST-EMPLOYEE",
     "lbListSuggested": "LB-LAW-OTHER-PDP; LB-DEC-OTHER-356",
-    "note": "Dùng HR domain vì gắn với nghĩa vụ thông báo xử lý dữ liệu trong hồ sơ nhân sự; áp dụng cả cho người lao động và thực tập sinh.",
+    "note": "Dùng HR domain vì gắn với nghĩa vụ thông báo xử lý dữ liệu trong hồ sơ nhân sự; áp dụng chung.",
     "order": 54
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-HR-PDP-CANDIDATE",
+    "nameVi": "Thông báo xử lý dữ liệu cá nhân (Ứng viên)",
+    "nameEn": "Personal Data Processing Notice (Candidate)",
+    "axis": "AX-EMP",
+    "category": "DOCUMENT",
+    "stPrimarySuggested": "ST-CANDIDATE",
+    "lbListSuggested": "LB-LAW-OTHER-PDP; LB-DEC-OTHER-356",
+    "note": "Thu thập sự đồng ý của ứng viên về việc xử lý dữ liệu cá nhân theo NĐ 13/2023/NĐ-CP trước khi nhận CV.",
+    "order": 55
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-HR-PDP-EMPLOYEE",
+    "nameVi": "Thông báo xử lý dữ liệu cá nhân (Người lao động)",
+    "nameEn": "Personal Data Processing Notice (Employee)",
+    "axis": "AX-EMP",
+    "category": "DOCUMENT",
+    "stPrimarySuggested": "ST-EMPLOYEE",
+    "lbListSuggested": "LB-LAW-OTHER-PDP; LB-DEC-OTHER-356",
+    "note": "Ký xác nhận đồng ý xử lý dữ liệu cá nhân đi kèm với Hợp đồng lao động.",
+    "order": 56
   }
 ];
 
@@ -2566,5 +2584,123 @@ export const RAW_EDGES = [
     "checkStatus": "NOT_CHECKED",
     "comments": null,
     "order": 132
+  },
+  {
+    "source": "ST-CANDIDATE",
+    "sourceType": "ST",
+    "relation": "RELATED_TO",
+    "target": "DOC-HR-PDP-CANDIDATE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Ứng viên cần xác nhận đồng ý trước khi cung cấp CV/thông tin tuyển dụng.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-CON",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 133
+  },
+  {
+    "source": "ST-EMPLOYEE",
+    "sourceType": "ST",
+    "relation": "RELATED_TO",
+    "target": "DOC-HR-PDP-EMPLOYEE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Người lao động ký xác nhận đồng ý xử lý dữ liệu cá nhân cùng đợt HĐLĐ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-CON",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 134
+  },
+  {
+    "source": "LB-LAW-OTHER-PDP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-HR-PDP-CANDIDATE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Căn cứ pháp lý theo NĐ13.",
+    "confidence": "HIGH",
+    "order": 135
+  },
+  {
+    "source": "LB-LAW-OTHER-PDP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-HR-PDP-EMPLOYEE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Căn cứ pháp lý theo NĐ13.",
+    "confidence": "HIGH",
+    "order": 136
+  },
+  {
+    "source": "LB-DEC-OTHER-356",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-HR-PDP-CANDIDATE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Hướng dẫn chi tiết NĐ13.",
+    "confidence": "HIGH",
+    "order": 137
+  },
+  {
+    "source": "LB-DEC-OTHER-356",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-HR-PDP-EMPLOYEE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Hướng dẫn chi tiết NĐ13.",
+    "confidence": "HIGH",
+    "order": 138
+  },
+  {
+    "source": "EV-EMP-RECRUIT",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-HR-PDP-CANDIDATE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Kích hoạt khi bắt đầu tuyển dụng.",
+    "confidence": "HIGH",
+    "order": 139
+  },
+  {
+    "source": "EV-EMP-ONBOARD",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-HR-PDP-EMPLOYEE",
+    "targetType": "DOC",
+    "axis": "AX-EMP",
+    "note": "Kích hoạt khi onboarding / tiếp nhận nhân viên mới.",
+    "confidence": "HIGH",
+    "order": 140
+  }
+];
+
+export const RAW_CHECKLISTS = [
+  {
+    "id": "chk_nd13_01",
+    "phase": "Recruitment",
+    "task": "Lưu trữ log đồng ý Thông báo Xử lý dữ liệu cá nhân của ứng viên (trên form ứng tuyển / email).",
+    "role": "HR Recruitment",
+    "isCritical": true
+  },
+  {
+    "id": "chk_nd13_02",
+    "phase": "Onboarding",
+    "task": "Kiểm tra chữ ký (tươi/số) trên văn bản Đồng ý xử lý dữ liệu cá nhân của nhân viên mới.",
+    "role": "HR Admin",
+    "isCritical": true
+  },
+  {
+    "id": "chk_nd13_03",
+    "phase": "Employee Records",
+    "task": "Mã hóa và phân quyền truy cập hồ sơ nhân sự theo quy định nội bộ đáp ứng NĐ13.",
+    "role": "IT/HR",
+    "isCritical": false
   }
 ];
