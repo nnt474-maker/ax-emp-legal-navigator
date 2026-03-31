@@ -457,7 +457,6 @@ function App() {
                 setSelectedNodeId(null);
                 setSearch("");
                 setSelectedTypes(TYPE_ORDER);
-                setFocusDepth(1);
               }}
             >
               Hiện toàn bộ sơ đồ
@@ -527,11 +526,6 @@ function App() {
               onNodeClick={(_, node) => {
                 setSelectedNodeId(node.id);
                 setFocusId(node.id);
-
-                const clickedType = node?.data?.raw?.type;
-                if (hideUnrelated && clickedType === "ST" && focusDepth < 2) {
-                  setFocusDepth(2);
-                }
               }}
               onPaneClick={() => {
                 setSelectedNodeId(null);
