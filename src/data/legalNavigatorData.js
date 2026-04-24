@@ -175,7 +175,7 @@ export const RAW_NODES = [
     "type": "ST",
     "id": "ST-LABOR-LOCAL",
     "nameVi": "Cơ quan lao động địa phương",
-    "nameEn": "Local labour authority",
+    "nameEn": "Local Labour Authority",
     "axis": "AX-SUP",
     "category": "STAKEHOLDER",
     "stPrimarySuggested": "ST-LABOR-LOCAL",
@@ -195,7 +195,7 @@ export const RAW_NODES = [
     "type": "ST",
     "id": "ST-BHXH-LOCAL",
     "nameVi": "Cơ quan Bảo hiểm xã hội địa phương",
-    "nameEn": "Local social insurance agency",
+    "nameEn": "Local Social Insurance Agency",
     "axis": "AX-SUP",
     "category": "STAKEHOLDER",
     "stPrimarySuggested": "ST-BHXH-LOCAL",
@@ -214,7 +214,7 @@ export const RAW_NODES = [
   {
     "type": "ST",
     "id": "ST-TAX-LOCAL",
-    "nameVi": "Cơ quan thuế địa phương",
+    "nameVi": "Cục Thuế địa phương",
     "nameEn": "Local Tax Department",
     "axis": "AX-SUP",
     "category": "STAKEHOLDER",
@@ -257,16 +257,16 @@ export const RAW_NODES = [
     "nameVi": "Bộ Tài chính",
     "nameEn": "Ministry of Finance",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-MOF",
+    "lbListSuggested": null,
+    "note": "Bộ Tài chính là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 9,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-MOF",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Bộ Tài chính là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 9
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -274,16 +274,16 @@ export const RAW_NODES = [
     "nameVi": "Sở Giao dịch Chứng khoán Việt Nam (VNX)",
     "nameEn": "Vietnam Stock Exchange",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": null,
+    "note": "Sở Giao dịch Chứng khoán Việt Nam (VNX) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 10,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Sở Giao dịch Chứng khoán Việt Nam (VNX) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 10
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -291,16 +291,16 @@ export const RAW_NODES = [
     "nameVi": "Sở Giao dịch Chứng khoán TP.HCM (HOSE)",
     "nameEn": "Ho Chi Minh Stock Exchange",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-HOSE",
+    "lbListSuggested": null,
+    "note": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 11,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-HOSE",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 11
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -308,16 +308,16 @@ export const RAW_NODES = [
     "nameVi": "Sở Giao dịch Chứng khoán Hà Nội (HNX)",
     "nameEn": "Hanoi Stock Exchange",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-HNX",
+    "lbListSuggested": null,
+    "note": "Sở Giao dịch Chứng khoán Hà Nội (HNX) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 12,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-HNX",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Sở Giao dịch Chứng khoán Hà Nội (HNX) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 12
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -325,16 +325,16 @@ export const RAW_NODES = [
     "nameVi": "Tổng công ty Lưu ký và Bù trừ CK Việt Nam (VSDC)",
     "nameEn": "Vietnam Securities Depository and Clearing Corporation",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": null,
+    "note": "Tổng công ty Lưu ký và Bù trừ CK Việt Nam (VSDC) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 13,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Tổng công ty Lưu ký và Bù trừ CK Việt Nam (VSDC) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 13
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -342,16 +342,16 @@ export const RAW_NODES = [
     "nameVi": "Tổng cục Thuế",
     "nameEn": "General Department of Taxation",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-GDT",
+    "lbListSuggested": null,
+    "note": "Tổng cục Thuế là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 14,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-GDT",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Tổng cục Thuế là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 14
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -359,16 +359,16 @@ export const RAW_NODES = [
     "nameVi": "Sở Tài chính cấp tỉnh/thành phố (Phòng ĐKKD/Đầu tư)",
     "nameEn": "Provincial Department of Finance (Business Registration/Investment)",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-DOF-PROV",
+    "lbListSuggested": null,
+    "note": "Sở Tài chính cấp tỉnh/thành phố (Phòng ĐKKD/Đầu tư) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 15,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-DOF-PROV",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Sở Tài chính cấp tỉnh/thành phố (Phòng ĐKKD/Đầu tư) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 15
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -376,16 +376,16 @@ export const RAW_NODES = [
     "nameVi": "Bộ Lao động – Thương binh và Xã hội",
     "nameEn": "Ministry of Labour, Invalids and Social Affairs",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-MOLISA",
+    "lbListSuggested": null,
+    "note": "Bộ Lao động – Thương binh và Xã hội là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 16,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-MOLISA",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Bộ Lao động – Thương binh và Xã hội là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 16
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -393,16 +393,16 @@ export const RAW_NODES = [
     "nameVi": "Ngân hàng Nhà nước Việt Nam (SBV)",
     "nameEn": "State Bank of Vietnam",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-SBV",
+    "lbListSuggested": null,
+    "note": "Ngân hàng Nhà nước Việt Nam (SBV) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 17,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-SBV",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Ngân hàng Nhà nước Việt Nam (SBV) là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 17
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -410,16 +410,16 @@ export const RAW_NODES = [
     "nameVi": "NHNN Chi nhánh địa phương",
     "nameEn": "SBV Local Branch",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-SBV-BRANCH",
+    "lbListSuggested": null,
+    "note": "NHNN Chi nhánh địa phương là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 18,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-SBV-BRANCH",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "NHNN Chi nhánh địa phương là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 18
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -427,16 +427,16 @@ export const RAW_NODES = [
     "nameVi": "FIU/Đầu mối Phòng, chống rửa tiền thuộc NHNN",
     "nameEn": "FIU / AML Unit of SBV",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": null,
+    "note": "FIU/Đầu mối Phòng, chống rửa tiền thuộc NHNN là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 19,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "FIU/Đầu mối Phòng, chống rửa tiền thuộc NHNN là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 19
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -444,16 +444,16 @@ export const RAW_NODES = [
     "nameVi": "Thanh tra Chính phủ/Thanh tra Bộ Tài chính/Thanh tra SSC",
     "nameEn": "Government Inspectorate / MoF Inspectorate / SSC Inspectorate",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-GOVINSPECT",
+    "lbListSuggested": null,
+    "note": "Thanh tra Chính phủ/Thanh tra Bộ Tài chính/Thanh tra SSC là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 20,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-GOVINSPECT",
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thanh tra Chính phủ/Thanh tra Bộ Tài chính/Thanh tra SSC là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 20
+    "overlapAxes": []
   },
   {
     "type": "ST",
@@ -461,16 +461,33 @@ export const RAW_NODES = [
     "nameVi": "Kiểm toán Nhà nước",
     "nameEn": "State Audit Office of Vietnam",
     "axis": "AX-SUP",
+    "category": "STAKEHOLDER",
+    "stPrimarySuggested": "ST-STATEAUDIT",
+    "lbListSuggested": null,
+    "note": "Kiểm toán Nhà nước là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
+    "order": 21,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
+    "overlapAxes": []
+  },
+  {
+    "type": "ST",
+    "id": "ST-PAYBANK",
+    "nameVi": "Ngân hàng thanh toán",
+    "nameEn": "Payment banks",
+    "axis": "AX-SUP",
     "category": "STAKEHOLDER",
-    "stPrimarySuggested": "ST-STATEAUDIT",
+    "stPrimarySuggested": "ST-PAYBANK",
     "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Kiểm toán Nhà nước là đầu mối giám sát, cấp phép, tiếp nhận hồ sơ hoặc thanh tra trong nhánh AX-SUP.",
-    "order": 21
+    "note": "Đầu mối tiếp nhận hồ sơ mở/đóng tài khoản và kết nối thanh toán.",
+    "order": 22,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ],
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -628,10 +645,10 @@ export const RAW_NODES = [
   {
     "type": "LB",
     "id": "LB-LAW-LABOR",
-    "nameVi": "Bộ luật Lao động 2019",
-    "nameEn": "Labor Code 2019",
+    "nameVi": "Bộ luật Lao động",
+    "nameEn": "Labour Code",
     "axis": "AX-SUP",
-    "category": "LEGAL_BASIS",
+    "category": "Law",
     "stPrimarySuggested": null,
     "lbListSuggested": null,
     "note": "Bộ luật Lao động là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
@@ -651,7 +668,7 @@ export const RAW_NODES = [
     "nameVi": "Luật Chứng khoán",
     "nameEn": "Law on Securities",
     "axis": "AX-SUP",
-    "category": "LEGAL_BASIS",
+    "category": "Law",
     "stPrimarySuggested": null,
     "lbListSuggested": null,
     "note": "Luật Chứng khoán là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
@@ -671,16 +688,16 @@ export const RAW_NODES = [
     "nameVi": "Luật Doanh nghiệp",
     "nameEn": "Law on Enterprises",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật Doanh nghiệp là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 12,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật Doanh nghiệp là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 12
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -688,16 +705,16 @@ export const RAW_NODES = [
     "nameVi": "Luật Đầu tư",
     "nameEn": "Law on Investment",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật Đầu tư là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 13,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật Đầu tư là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 13
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -705,16 +722,16 @@ export const RAW_NODES = [
     "nameVi": "Luật Phòng, chống rửa tiền",
     "nameEn": "Law on Anti-Money Laundering",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật Phòng, chống rửa tiền là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 14,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật Phòng, chống rửa tiền là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 14
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -722,16 +739,16 @@ export const RAW_NODES = [
     "nameVi": "Luật Quản lý thuế và các Luật thuế liên quan",
     "nameEn": "Law on Tax Administration and related tax laws",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật Quản lý thuế và các Luật thuế liên quan là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 15,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật Quản lý thuế và các Luật thuế liên quan là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 15
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -739,16 +756,16 @@ export const RAW_NODES = [
     "nameVi": "Luật BHXH, Luật Việc làm (BHTN)",
     "nameEn": "Law on Social Insurance & Employment (Unemployment Insurance)",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật BHXH, Luật Việc làm (BHTN) là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 16,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật BHXH, Luật Việc làm (BHTN) là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 16
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -756,16 +773,16 @@ export const RAW_NODES = [
     "nameVi": "Luật NHNN, Luật Các tổ chức tín dụng",
     "nameEn": "Law on SBV & Law on Credit Institutions",
     "axis": "AX-SUP",
+    "category": "Law",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Luật NHNN, Luật Các tổ chức tín dụng là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 17,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Law",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Luật NHNN, Luật Các tổ chức tín dụng là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 17
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -773,16 +790,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định 155/2020/NĐ-CP và các sửa đổi",
     "nameEn": "Decree 155/2020/ND-CP and amendments",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định 155/2020/NĐ-CP và các sửa đổi là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 18,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định 155/2020/NĐ-CP và các sửa đổi là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 18
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -790,16 +807,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định 156/2020/NĐ-CP và văn bản thay thế",
     "nameEn": "Decree 156/2020/ND-CP and successors",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định 156/2020/NĐ-CP và văn bản thay thế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 19,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định 156/2020/NĐ-CP và văn bản thay thế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 19
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -807,16 +824,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định về chào bán, giao dịch trái phiếu doanh nghiệp",
     "nameEn": "Decree on offering/trading corporate bonds",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định về chào bán, giao dịch trái phiếu doanh nghiệp là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 20,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định về chào bán, giao dịch trái phiếu doanh nghiệp là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 20
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -824,16 +841,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định hướng dẫn Luật Quản lý thuế",
     "nameEn": "Decree guiding the Law on Tax Administration",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định hướng dẫn Luật Quản lý thuế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 21,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định hướng dẫn Luật Quản lý thuế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 21
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -841,16 +858,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định hướng dẫn Luật Phòng, chống rửa tiền",
     "nameEn": "Decree guiding AML Law",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định hướng dẫn Luật Phòng, chống rửa tiền là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 22,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định hướng dẫn Luật Phòng, chống rửa tiền là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 22
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -858,16 +875,16 @@ export const RAW_NODES = [
     "nameVi": "Nghị định hướng dẫn Bộ luật Lao động/BHXH/BHTN",
     "nameEn": "Decree guiding Labour/Social/Unemployment rules",
     "axis": "AX-SUP",
+    "category": "Decree",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Nghị định hướng dẫn Bộ luật Lao động/BHXH/BHTN là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 23,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Decree",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Nghị định hướng dẫn Bộ luật Lao động/BHXH/BHTN là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 23
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -875,16 +892,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư về công bố thông tin trên thị trường chứng khoán",
     "nameEn": "Circular on information disclosure",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư về công bố thông tin trên thị trường chứng khoán là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 24,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư về công bố thông tin trên thị trường chứng khoán là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 24
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -892,16 +909,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư về đăng ký/niêm yết/giao dịch chứng khoán, giao dịch TPCP",
     "nameEn": "Circular on registration/listing/trading securities; government bonds",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư về đăng ký/niêm yết/giao dịch chứng khoán, giao dịch TPCP là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 25,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư về đăng ký/niêm yết/giao dịch chứng khoán, giao dịch TPCP là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 25
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -909,16 +926,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư về tổ chức, hoạt động CTCK; an toàn tài chính; quản trị rủi ro",
     "nameEn": "Circular on securities company organization/operations; financial safety; risk management",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư về tổ chức, hoạt động CTCK; an toàn tài chính; quản trị rủi ro là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 26,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư về tổ chức, hoạt động CTCK; an toàn tài chính; quản trị rủi ro là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 26
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -926,16 +943,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư về đăng ký/lưu ký/bù trừ/thanh toán chứng khoán",
     "nameEn": "Circular on registration/depository/clearing/settlement",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư về đăng ký/lưu ký/bù trừ/thanh toán chứng khoán là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 27,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư về đăng ký/lưu ký/bù trừ/thanh toán chứng khoán là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 27
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -943,16 +960,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư NHNN về tài khoản thanh toán, báo cáo giao dịch, AML",
     "nameEn": "SBV Circular on payment accounts; transaction reporting; AML",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư NHNN về tài khoản thanh toán, báo cáo giao dịch, AML là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 28,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư NHNN về tài khoản thanh toán, báo cáo giao dịch, AML là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 28
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -960,16 +977,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư hướng dẫn đăng ký thuế, kê khai, quyết toán thuế",
     "nameEn": "Tax circulars on registration, declaration, finalization",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư hướng dẫn đăng ký thuế, kê khai, quyết toán thuế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 29,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư hướng dẫn đăng ký thuế, kê khai, quyết toán thuế là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 29
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -977,16 +994,16 @@ export const RAW_NODES = [
     "nameVi": "Thông tư về báo cáo lao động, tiền lương, BHXH",
     "nameEn": "Circulars on labour reporting, wages, social insurance",
     "axis": "AX-SUP",
+    "category": "Circular",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Thông tư về báo cáo lao động, tiền lương, BHXH là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 30,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Circular",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Thông tư về báo cáo lao động, tiền lương, BHXH là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 30
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -994,16 +1011,16 @@ export const RAW_NODES = [
     "nameVi": "Quy chế niêm yết và giao dịch chứng khoán trên HOSE",
     "nameEn": "HOSE listing & trading regulations",
     "axis": "AX-SUP",
+    "category": "Regulation",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Quy chế niêm yết và giao dịch chứng khoán trên HOSE là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 31,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Regulation",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Quy chế niêm yết và giao dịch chứng khoán trên HOSE là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 31
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -1011,16 +1028,16 @@ export const RAW_NODES = [
     "nameVi": "Quy chế niêm yết và giao dịch chứng khoán trên HNX",
     "nameEn": "HNX listing & trading regulations",
     "axis": "AX-SUP",
+    "category": "Regulation",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Quy chế niêm yết và giao dịch chứng khoán trên HNX là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 32,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Regulation",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Quy chế niêm yết và giao dịch chứng khoán trên HNX là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 32
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -1028,16 +1045,16 @@ export const RAW_NODES = [
     "nameVi": "Quy chế thành viên/đăng ký/lưu ký/bù trừ/thanh toán của VSDC",
     "nameEn": "VSDC member/registration/depository/clearing/settlement regulations",
     "axis": "AX-SUP",
+    "category": "Regulation",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Quy chế thành viên/đăng ký/lưu ký/bù trừ/thanh toán của VSDC là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 33,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Regulation",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Quy chế thành viên/đăng ký/lưu ký/bù trừ/thanh toán của VSDC là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 33
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -1045,16 +1062,16 @@ export const RAW_NODES = [
     "nameVi": "Quy định SSC về chế độ báo cáo/giám sát/thanh tra CTCK",
     "nameEn": "SSC rules on reporting, supervision & inspection for securities firms",
     "axis": "AX-SUP",
+    "category": "Regulation",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Quy định SSC về chế độ báo cáo/giám sát/thanh tra CTCK là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 34,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Regulation",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Quy định SSC về chế độ báo cáo/giám sát/thanh tra CTCK là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 34
+    "overlapAxes": []
   },
   {
     "type": "LB",
@@ -1062,16 +1079,16 @@ export const RAW_NODES = [
     "nameVi": "Quy định NHNN/FIU về AML áp dụng cho CTCK",
     "nameEn": "SBV/FIU AML regulations applicable to securities firms",
     "axis": "AX-SUP",
+    "category": "Regulation",
+    "stPrimarySuggested": null,
+    "lbListSuggested": null,
+    "note": "Quy định NHNN/FIU về AML áp dụng cho CTCK là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
+    "order": 35,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "Regulation",
-    "stPrimarySuggested": null,
-    "lbListSuggested": null,
-    "overlapAxes": [],
-    "note": "Quy định NHNN/FIU về AML áp dụng cho CTCK là căn cứ pháp lý được dùng để neo nghĩa vụ giám sát, báo cáo hoặc vận hành tuân thủ trong AX-SUP.",
-    "order": 35
+    "overlapAxes": []
   },
   {
     "type": "DOC",
@@ -1332,20 +1349,20 @@ export const RAW_NODES = [
     "type": "DOC",
     "id": "DOC-BHXH-REGISTER",
     "nameVi": "Hồ sơ đăng ký BHXH/BHYT/BHTN & điều chỉnh",
-    "nameEn": "Social, Health and Unemployment Insurance dossier",
-    "axis": "AX-EMP",
+    "nameEn": "SI/HI/UI registration & adjustments",
+    "axis": "AX-SUP",
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-BHXH-LOCAL",
-    "lbListSuggested": "LB-LAW-SOCIAL-SI; LB-LAW-SOCIAL-HI; LB-LAW-SOCIAL; LB-DEC-LABOR",
+    "lbListSuggested": "LB-LAW-SOCIAL; LB-DEC-LABOR",
     "note": "Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.\n\nGhi chú BTK: Báo cáo thống kê lao động cho Cục thống kê (survey hàng năm không phân rõ là báo cáo)\n\nHồ sơ đăng ký/điều chỉnh BHXH là nghĩa vụ với cơ quan BHXH; ngoài ra thực tế có thể phát sinh thêm báo cáo thống kê lao động/survey hằng năm ở kênh khác.\n\nTrục chính là AX-EMP; lưu ý có thể phát sinh thêm nghĩa vụ thống kê lao động riêng, không nhất thiết là cùng 1 loại 'report'.",
     "order": 16,
-    "primaryAxis": "AX-EMP",
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-EMP",
       "AX-SUP"
     ],
     "overlapAxes": [
-      "AX-SUP"
+      "AX-EMP"
     ]
   },
   {
@@ -1387,40 +1404,40 @@ export const RAW_NODES = [
     "id": "DOC-LABOR-REPORT",
     "nameVi": "Báo cáo sử dụng lao động/tiền lương",
     "nameEn": "Labour & wage reports",
-    "axis": "AX-EMP",
-    "primaryAxis": "AX-EMP",
-    "axisList": [
-      "AX-SUP",
-      "AX-EMP"
-    ],
+    "axis": "AX-SUP",
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-LABOR-LOCAL",
     "lbListSuggested": "LB-LAW-LABOR; LB-DEC-LABOR; LB-CIR-LABOR",
-    "overlapAxes": [
+    "note": "Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nGhi chú BTK: AX-EMP\n\nĐây là nghĩa vụ báo cáo với cơ quan lao động, nhưng xét theo bản chất quản trị nội bộ nên trục chính thiên về AX-EMP.\n\nTrục chính là AX-EMP; giữ cross-reference AX-SUP vì vẫn là nghĩa vụ báo cáo ra bên ngoài.",
+    "order": 19,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
       "AX-SUP"
     ],
-    "note": "Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nGhi chú BTK: AX-EMP\n\nĐây là nghĩa vụ báo cáo với cơ quan lao động, nhưng xét theo bản chất quản trị nội bộ nên trục chính thiên về AX-EMP.\n\nTrục chính là AX-EMP; giữ cross-reference AX-SUP vì vẫn là nghĩa vụ báo cáo ra bên ngoài.",
-    "order": 19
+    "overlapAxes": [
+      "AX-EMP"
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-BHXH-REPORT",
     "nameVi": "Báo cáo định kỳ BHXH/BHYT/BHTN",
     "nameEn": "Periodic SI/HI/UI reports",
-    "axis": "AX-EMP",
-    "primaryAxis": "AX-EMP",
-    "axisList": [
-      "AX-SUP",
-      "AX-EMP"
-    ],
+    "axis": "AX-SUP",
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-BHXH-LOCAL",
     "lbListSuggested": "LB-LAW-SOCIAL; LB-DEC-LABOR",
-    "overlapAxes": [
+    "note": "Có nghĩa vụ lao động/BHXH do cơ quan chuyên ngành giám sát.\n\nTrục chính là AX-EMP; giữ cross-reference AX-SUP vì vẫn là nghĩa vụ báo cáo ra bên ngoài.\n\nBáo cáo định kỳ BHXH/BHYT/BHTN là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 20,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
       "AX-SUP"
     ],
-    "note": "Có nghĩa vụ lao động/BHXH do cơ quan chuyên ngành giám sát.\n\nTrục chính là AX-EMP; giữ cross-reference AX-SUP vì vẫn là nghĩa vụ báo cáo ra bên ngoài.\n\nBáo cáo định kỳ BHXH/BHYT/BHTN là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 20
+    "overlapAxes": [
+      "AX-EMP"
+    ]
   },
   {
     "type": "DOC",
@@ -1428,19 +1445,19 @@ export const RAW_NODES = [
     "nameVi": "GCN ĐKDN & hồ sơ thay đổi ĐKDN",
     "nameEn": "Enterprise Registration Certificate (ERC) & change filings",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-DOF-PROV",
+    "lbListSuggested": "LB-LAW-ENT",
+    "note": "Có nghĩa vụ đăng ký doanh nghiệp/đăng ký thay đổi với cơ quan ĐKKD.\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Hồ sơ nền tảng về tư cách pháp lý/vận hành công ty.\n\nGCN ĐKDN & hồ sơ thay đổi ĐKDN là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 21,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-DOF-PROV",
-    "lbListSuggested": "LB-LAW-ENT",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ đăng ký doanh nghiệp/đăng ký thay đổi với cơ quan ĐKKD.\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Hồ sơ nền tảng về tư cách pháp lý/vận hành công ty.\n\nGCN ĐKDN & hồ sơ thay đổi ĐKDN là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 21
+    ]
   },
   {
     "type": "DOC",
@@ -1448,19 +1465,19 @@ export const RAW_NODES = [
     "nameVi": "Giấy phép thành lập và hoạt động CTCK",
     "nameEn": "Securities company establishment & operation license",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nGiấy phép CTCK là supervisory item nền tảng của công ty.\n\nGiấy phép thành lập và hoạt động CTCK là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 22,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nGiấy phép CTCK là supervisory item nền tảng của công ty.\n\nGiấy phép thành lập và hoạt động CTCK là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 22
+    ]
   },
   {
     "type": "DOC",
@@ -1468,19 +1485,19 @@ export const RAW_NODES = [
     "nameVi": "Hồ sơ/Quyết định chấp thuận từng nghiệp vụ",
     "nameEn": "Approvals for each securities business line",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nHồ sơ/quyết định nghiệp vụ là supervisory item nền tảng, đồng thời gắn quản trị hoạt động.\n\nHồ sơ/Quyết định chấp thuận từng nghiệp vụ là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 23,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nHồ sơ/quyết định nghiệp vụ là supervisory item nền tảng, đồng thời gắn quản trị hoạt động.\n\nHồ sơ/Quyết định chấp thuận từng nghiệp vụ là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 23
+    ]
   },
   {
     "type": "DOC",
@@ -1488,19 +1505,19 @@ export const RAW_NODES = [
     "nameVi": "Chấp thuận thay đổi vốn điều lệ CTCK",
     "nameEn": "Approval for changes in charter capital",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi vốn điều lệ là supervisory + governance item.\n\nChấp thuận thay đổi vốn điều lệ CTCK là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 24,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi vốn điều lệ là supervisory + governance item.\n\nChấp thuận thay đổi vốn điều lệ CTCK là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 24
+    ]
   },
   {
     "type": "DOC",
@@ -1508,19 +1525,19 @@ export const RAW_NODES = [
     "nameVi": "Chấp thuận thay đổi trụ sở/chi nhánh/PGD",
     "nameEn": "Approval for head office/branch/transaction office changes",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi trụ sở là supervisory + governance item.\n\nChấp thuận thay đổi trụ sở/chi nhánh/PGD là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 25,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi trụ sở là supervisory + governance item.\n\nChấp thuận thay đổi trụ sở/chi nhánh/PGD là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 25
+    ]
   },
   {
     "type": "DOC",
@@ -1528,19 +1545,19 @@ export const RAW_NODES = [
     "nameVi": "Chấp thuận thay đổi TGĐ/nhân sự quản lý chủ chốt",
     "nameEn": "Approval for changes of CEO/key management",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
+    "note": "Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.\n\nGhi chú BTK: Tài liệu nội bộ của PHS\n\nGiữ ở AX-SUP cho phần hồ sơ/chấp thuận với SSC; còn quyết định bổ nhiệm/miễn nhiệm nội bộ nên quản lý riêng tại AX-GOV.\n\nTách logic: chấp thuận/filing với SSC = AX-SUP; tài liệu nhân sự nội bộ = AX-GOV.",
+    "order": 26,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.\n\nGhi chú BTK: Tài liệu nội bộ của PHS\n\nGiữ ở AX-SUP cho phần hồ sơ/chấp thuận với SSC; còn quyết định bổ nhiệm/miễn nhiệm nội bộ nên quản lý riêng tại AX-GOV.\n\nTách logic: chấp thuận/filing với SSC = AX-SUP; tài liệu nhân sự nội bộ = AX-GOV.",
-    "order": 26
+    ]
   },
   {
     "type": "DOC",
@@ -1548,21 +1565,21 @@ export const RAW_NODES = [
     "nameVi": "Hợp đồng/Thỏa thuận thành viên giao dịch HOSE",
     "nameEn": "HOSE trading membership agreement",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HOSE",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST",
+    "note": "Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.\n\nGhi chú BTK: Bộ báo cáo, hồ sơ gửi riêng HOSE\n\nHợp đồng/thỏa thuận thành viên với HOSE là hồ sơ riêng theo từng đầu mối, gắn cả yếu tố giám sát, hợp đồng và vận hành dịch vụ.\n\nHồ sơ thành viên HOSE là bộ hồ sơ riêng, đồng thời là contractual + service-based.",
+    "order": 27,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-CON",
       "AX-SRV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-HOSE",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST",
     "overlapAxes": [
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.\n\nGhi chú BTK: Bộ báo cáo, hồ sơ gửi riêng HOSE\n\nHợp đồng/thỏa thuận thành viên với HOSE là hồ sơ riêng theo từng đầu mối, gắn cả yếu tố giám sát, hợp đồng và vận hành dịch vụ.\n\nHồ sơ thành viên HOSE là bộ hồ sơ riêng, đồng thời là contractual + service-based.",
-    "order": 27
+    ]
   },
   {
     "type": "DOC",
@@ -1570,21 +1587,21 @@ export const RAW_NODES = [
     "nameVi": "Hợp đồng/Thỏa thuận thành viên giao dịch HNX",
     "nameEn": "HNX trading membership agreement",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HNX-LIST",
+    "note": "Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.\n\nGhi chú BTK: Bộ báo cáo, hồ sơ gửi riêng HNX\n\nHợp đồng/thỏa thuận thành viên với HNX là hồ sơ riêng theo từng đầu mối, gắn cả yếu tố giám sát, hợp đồng và vận hành dịch vụ.\n\nHồ sơ thành viên HNX là bộ hồ sơ riêng, đồng thời là contractual + service-based.",
+    "order": 28,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-CON",
       "AX-SRV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-HNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HNX-LIST",
     "overlapAxes": [
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.\n\nGhi chú BTK: Bộ báo cáo, hồ sơ gửi riêng HNX\n\nHợp đồng/thỏa thuận thành viên với HNX là hồ sơ riêng theo từng đầu mối, gắn cả yếu tố giám sát, hợp đồng và vận hành dịch vụ.\n\nHồ sơ thành viên HNX là bộ hồ sơ riêng, đồng thời là contractual + service-based.",
-    "order": 28
+    ]
   },
   {
     "type": "DOC",
@@ -1592,43 +1609,21 @@ export const RAW_NODES = [
     "nameVi": "Hợp đồng/Thỏa thuận thành viên lưu ký/bù trừ/thanh toán VSDC",
     "nameEn": "VSDC depository/clearing/settlement membership agreement",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-CON",
-      "AX-SRV"
-    ],
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-VSDC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
-    "overlapAxes": [
-      "AX-CON",
-      "AX-SRV"
-    ],
     "note": "Hợp đồng/thỏa thuận thành viên với VSDC là hồ sơ riêng theo từng đầu mối, gắn cả yếu tố giám sát, hợp đồng và vận hành dịch vụ.\n\nHồ sơ thành viên VSDC là bộ hồ sơ riêng, đồng thời là contractual + service-based.\n\nHợp đồng/Thỏa thuận thành viên lưu ký/bù trừ/thanh toán VSDC là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 29
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-MEM-PAYBANK",
-    "nameVi": "Hợp đồng mở TK thanh toán/kết nối ngân hàng thanh toán",
-    "nameEn": "Payment bank account & system connectivity agreements",
-    "axis": "AX-SUP",
+    "order": 29,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-CON",
       "AX-SRV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SBV",
-    "lbListSuggested": "LB-LAW-SBV; LB-CIR-SBV-PAY; LB-REG-SBV-AML",
     "overlapAxes": [
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Làm rõ đây là hồ sơ mở/đóng TK thanh toán + kết nối ngân hàng thanh toán.\n\nGhi chú BTK: Hồ sơ mở/đóng TK\n\nĐây là hồ sơ mở/đóng tài khoản thanh toán, kết nối vận hành với ngân hàng thanh toán; có cả yếu tố hợp đồng và service operation.\n\nHồ sơ mở/đóng TK thanh toán và kết nối ngân hàng thanh toán -> overlap AX-CON và AX-SRV.",
-    "order": 30
+    ]
   },
   {
     "type": "DOC",
@@ -1636,99 +1631,19 @@ export const RAW_NODES = [
     "nameVi": "Bộ báo cáo định kỳ gửi SSC",
     "nameEn": "Periodic reports to SSC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
     "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Liên quan báo cáo/CBTT/quản trị.\n\nBộ báo cáo định kỳ gửi SSC là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 31
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-REP-EXC-PER",
-    "nameVi": "Bộ báo cáo định kỳ gửi HOSE/HNX/VSDC",
-    "nameEn": "Periodic reports to HOSE/HNX/VSDC",
-    "axis": "AX-SUP",
+    "order": 30,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-VNX; ST-HOSE; ST-HNX; ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.\n\nGhi chú BTK: Báo cáo overlap vì nhiều cá thể khác nhau AX-SUP vì k là bc tài chính; AX-GOV\n\nĐây là cụm báo cáo gửi riêng cho HOSE/HNX/VSDC; không nên hiểu là một bộ hồ sơ duy nhất ở cấp VNX.\n\nBáo cáo/hồ sơ phát sinh theo từng đầu mối HOSE/HNX/VSDC. Overlap AX-GOV vì bản chất là nghĩa vụ báo cáo/công bố.",
-    "order": 32
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-REP-SSC-ADHOC",
-    "nameVi": "Báo cáo/giải trình bất thường theo yêu cầu",
-    "nameEn": "Ad-hoc reports/explanations upon request",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
-    "note": "Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.\n\nGhi chú BTK: TH của Tax, BHXH, Công An\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 33
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-DISC-REGULAR",
-    "nameVi": "Công bố thông tin định kỳ",
-    "nameEn": "Periodic disclosure",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
-    "note": "Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.\n\nGhi chú BTK: Overlap vì CBTT phải gửi chung cho các Sở\n\nCBTT thường được thực hiện đồng thời cho SSC và Sở liên quan; không nên hiểu là nghĩa vụ riêng lẻ chỉ của 1 cơ quan.\n\nCBTT overlap AX-GOV vì gắn với minh bạch và quản trị công ty.",
-    "order": 34
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-DISC-ADHOC",
-    "nameVi": "Công bố thông tin bất thường",
-    "nameEn": "Ad-hoc disclosure",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
-    "note": "Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.\n\nGhi chú BTK: Overlap vì CBTT phải gửi chung cho các Sở\n\nCBTT thường được thực hiện đồng thời cho SSC và Sở liên quan; không nên hiểu là nghĩa vụ riêng lẻ chỉ của 1 cơ quan.\n\nCBTT overlap AX-GOV vì gắn với minh bạch và quản trị công ty.",
-    "order": 35
+    ]
   },
   {
     "type": "DOC",
@@ -1736,129 +1651,19 @@ export const RAW_NODES = [
     "nameVi": "BCTC năm đã kiểm toán & tài liệu kèm theo",
     "nameEn": "Audited annual financial statements & attachments",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
     "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBCTC kiểm toán vừa là compliance vừa là governance/disclosure item.\n\nBCTC năm đã kiểm toán & tài liệu kèm theo là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 36
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-INSP-DEC",
-    "nameVi": "Quyết định thanh tra, kiểm tra",
-    "nameEn": "Inspection decision",
-    "axis": "AX-SUP",
+    "order": 31,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
     "overlapAxes": [
-      "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).\n\nGhi chú BTK: TH của Tax, BHXH\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 37
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-INSP-WORK",
-    "nameVi": "Biên bản làm việc/biên bản vi phạm",
-    "nameEn": "Working minutes / violation minutes",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).\n\nGhi chú BTK: TH của Tax, BHXH\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 38
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-INSP-EXPLAIN",
-    "nameVi": "Văn bản giải trình/cung cấp hồ sơ",
-    "nameEn": "Explanation letter / document submission",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.\n\nGhi chú BTK: TH của Tax, BHXH, Công An\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 39
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-SANC-DEC",
-    "nameVi": "Quyết định xử phạt VPHC",
-    "nameEn": "Administrative sanction decision",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156",
-    "overlapAxes": [
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Khái quát lại theo logic đa cơ quan xử phạt.\n\nGhi chú BTK: TH của Tax, BHXH\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 40
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-SANC-REMEDY",
-    "nameVi": "Hồ sơ kế hoạch & kết quả khắc phục",
-    "nameEn": "Remediation plan & results dossier",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
-    "overlapAxes": [
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Khái quát lại theo logic đa cơ quan và gắn compliance/governance.\n\nGhi chú BTK: TH của Tax, BHXH\n\nKhông chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.",
-    "order": 41
+    ]
   },
   {
     "type": "DOC",
@@ -1866,19 +1671,19 @@ export const RAW_NODES = [
     "nameVi": "Hồ sơ đăng ký đầu mối AML",
     "nameEn": "AML focal point registration",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nHồ sơ đăng ký đầu mối AML là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 32,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nHồ sơ đăng ký đầu mối AML là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 42
+    ]
   },
   {
     "type": "DOC",
@@ -1886,19 +1691,19 @@ export const RAW_NODES = [
     "nameVi": "Báo cáo giao dịch đáng ngờ/giao dịch lớn",
     "nameEn": "Suspicious/large transaction reports",
     "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML; LB-CIR-SBV-PAY",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nBáo cáo giao dịch đáng ngờ/giao dịch lớn là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 33,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML; LB-CIR-SBV-PAY",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nBáo cáo giao dịch đáng ngờ/giao dịch lớn là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 43
+    ]
   },
   {
     "type": "DOC",
@@ -1906,143 +1711,803 @@ export const RAW_NODES = [
     "nameVi": "Hồ sơ đăng ký/điều chỉnh với SSC/Sở/VSDC (nếu cần) (TBD)",
     "nameEn": "Registration/adjustment filings with SSC/Exchanges/VSDC (if required) (TBD)",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV"
-    ],
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
-    "overlapAxes": [
-      "AX-GOV"
-    ],
     "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định.\n\nTBD code — cần chuẩn hóa ID\n\nHồ sơ đăng ký/điều chỉnh với SSC/Sở/VSDC (nếu cần) (TBD) là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 44
-  },
-  {
-    "type": "DOC",
-    "id": "DOC-TBD-UPDATE-OTHERS",
-    "nameVi": "Hồ sơ cập nhật thông tin với Sở/VSDC/ngân hàng thanh toán/NHNN (TBD)",
-    "nameEn": "Update filings to Exchanges/VSDC/payment banks/SBV (TBD)",
-    "axis": "AX-SUP",
+    "order": 34,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-VNX; ST-HOSE; ST-HNX; ST-VSDC; ST-SBV; ST-SBV-BRANCH",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Đổi sang logic multi-stakeholder, ghi rõ bộ hồ sơ tách riêng theo từng đơn vị nhận.\n\nGhi chú BTK: Hồ sơ overlap vì nhiều cá thể khác nhau AX-SUP vì k là bc tài chính; AX-GOV\n\nCác hồ sơ cập nhật thông tin với Sở/VSDC/ngân hàng thanh toán/NHNN thường là các bộ hồ sơ tách riêng theo từng đơn vị.\n\nNên quản lý như cụm multi-stakeholder. Overlap AX-GOV khi nội dung cập nhật gắn với thông tin pháp lý/công bố.",
-    "order": 45
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-ART-01",
     "nameVi": "Điều lệ công ty (bản hiện hành)",
     "nameEn": "Company Charter (current version)",
-    "axis": "AX-GOV",
-    "primaryAxis": "AX-GOV",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-DOF-PROV",
+    "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC",
+    "note": "Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.\n\nGhi chú BTK: Điều lệ do PHS ban hành và quản lý, không gửi bc khi có update\n\nĐiều lệ là tài liệu nội bộ nền tảng của PHS. Không phải hồ sơ/báo cáo phải gửi định kỳ mỗi khi cập nhật; trong AX-SUP chỉ nên xem như tài liệu supporting khi phát sinh event thay đổi vốn/trụ sở/nghiệp vụ nếu hồ sơ yêu cầu.\n\nĐiều lệ do PHS ban hành và tự quản lý. Không coi là nghĩa vụ báo cáo/cập nhật thường xuyên; chỉ xuất hiện như tài liệu supporting trong một số hồ sơ thay đổi.",
+    "order": 35,
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-DOF-PROV",
-    "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC",
     "overlapAxes": [
-      "AX-SUP"
-    ],
-    "note": "Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.\n\nGhi chú BTK: Điều lệ do PHS ban hành và quản lý, không gửi bc khi có update\n\nĐiều lệ là tài liệu nội bộ nền tảng của PHS. Không phải hồ sơ/báo cáo phải gửi định kỳ mỗi khi cập nhật; trong AX-SUP chỉ nên xem như tài liệu supporting khi phát sinh event thay đổi vốn/trụ sở/nghiệp vụ nếu hồ sơ yêu cầu.\n\nĐiều lệ do PHS ban hành và tự quản lý. Không coi là nghĩa vụ báo cáo/cập nhật thường xuyên; chỉ xuất hiện như tài liệu supporting trong một số hồ sơ thay đổi.",
-    "order": 46
+      "AX-GOV"
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-TBD-PROD-APPROVAL",
     "nameVi": "Hồ sơ nội bộ phê duyệt sản phẩm (TBD code)",
     "nameEn": "Internal product approval memo/policy (TBD code)",
-    "axis": "AX-GOV",
-    "primaryAxis": "AX-GOV",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
+    "note": "Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.\n\nGhi chú BTK: Tài liệu nội bộ của PHS\n\nĐây là hồ sơ nội bộ phê duyệt sản phẩm của PHS; không phải bản thân nó là hồ sơ supervisory routine.\n\nTài liệu nội bộ của PHS; giữ như supporting doc cho EV-PROD-NEW thay vì supervisory routine item.",
+    "order": 36,
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV",
       "AX-SRV"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
     "overlapAxes": [
-      "AX-SUP",
+      "AX-GOV",
       "AX-SRV"
-    ],
-    "note": "Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.\n\nGhi chú BTK: Tài liệu nội bộ của PHS\n\nĐây là hồ sơ nội bộ phê duyệt sản phẩm của PHS; không phải bản thân nó là hồ sơ supervisory routine.\n\nTài liệu nội bộ của PHS; giữ như supporting doc cho EV-PROD-NEW thay vì supervisory routine item.",
-    "order": 47
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-TAX-REGISTER",
     "nameVi": "Hồ sơ đăng ký thuế/thay đổi thông tin",
     "nameEn": "Tax registration/change filings",
-    "axis": "AX-COM",
-    "primaryAxis": "AX-COM",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": "Có nghĩa vụ thuế do cơ quan thuế giám sát.\n\nThuế gắn với compliance; hồ sơ đăng ký/thay đổi thông tin thuế nên cross-reference AX-SUP.\n\nHồ sơ đăng ký thuế/thay đổi thông tin là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 37,
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-TAX-LOCAL",
-    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
     "overlapAxes": [
-      "AX-SUP"
-    ],
-    "note": "Có nghĩa vụ thuế do cơ quan thuế giám sát.\n\nThuế gắn với compliance; hồ sơ đăng ký/thay đổi thông tin thuế nên cross-reference AX-SUP.\n\nHồ sơ đăng ký thuế/thay đổi thông tin là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 48
+      "AX-COM"
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-TAX-DECL",
-    "nameVi": "Hồ sơ kê khai/quyết toán thuế",
+    "nameVi": "Báo cáo/kê khai/quyết toán thuế định kỳ",
     "nameEn": "Tax declarations & finalization",
-    "axis": "AX-COM",
-    "primaryAxis": "AX-COM",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": "Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).\n\nGhi chú BTK: Báo cáo thuế định kì\n\nĐây là cụm nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo thuế) hơn là chỉ một bộ hồ sơ tĩnh.\n\nThuế là nghĩa vụ compliance định kỳ; có thể theo dõi chính ở AX-COM và cross-reference sang AX-SUP.",
+    "order": 38,
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "KEY_DOCUMENT",
-    "stPrimarySuggested": "ST-TAX-LOCAL",
-    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
     "overlapAxes": [
-      "AX-SUP"
-    ],
-    "note": "Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).\n\nGhi chú BTK: Báo cáo thuế định kì\n\nĐây là cụm nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo thuế) hơn là chỉ một bộ hồ sơ tĩnh.\n\nThuế là nghĩa vụ compliance định kỳ; có thể theo dõi chính ở AX-COM và cross-reference sang AX-SUP.",
-    "order": 49
+      "AX-COM"
+    ]
   },
   {
     "type": "DOC",
     "id": "DOC-TBD-CLIENT-TC",
     "nameVi": "Tài liệu cung cấp cho khách hàng (T&Cs/Hợp đồng mẫu) (TBD)",
     "nameEn": "Client-facing documents (T&Cs/template contract) (TBD)",
-    "axis": "AX-SRV",
-    "primaryAxis": "AX-SRV",
-    "axisList": [
-      "AX-SUP",
-      "AX-SRV",
-      "AX-CON"
-    ],
+    "axis": "AX-SUP",
     "category": "KEY_DOCUMENT",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
-    "overlapAxes": [
+    "note": "Tài liệu T&Cs/hợp đồng mẫu là bộ tài liệu client-facing; trục chính là dịch vụ/hợp đồng, chỉ liên đới AX-SUP khi sản phẩm cần rà regulatory.\n\nClient-facing T&Cs/model contract -> trục chính AX-SRV + AX-CON.\n\nTBD code — cần chuẩn hóa ID\n\nTài liệu cung cấp cho khách hàng (T&Cs/Hợp đồng mẫu) (TBD) là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
+    "order": 39,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
       "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ],
+    "overlapAxes": [
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-DISC-ADHOC-EXC",
+    "nameVi": "Công bố thông tin bất thường gửi Sở GDCK liên quan",
+    "nameEn": "Ad-hoc disclosure to the relevant Stock Exchange",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-HOSE; ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
+    "note": null,
+    "order": 40,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-DISC-ADHOC-SSC",
+    "nameVi": "Công bố thông tin bất thường gửi SSC",
+    "nameEn": "Ad-hoc disclosure to SSC",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": null,
+    "order": 41,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-DISC-REGULAR-EXC",
+    "nameVi": "Công bố thông tin định kỳ gửi Sở GDCK liên quan",
+    "nameEn": "Periodic disclosure to the relevant Stock Exchange",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-HOSE; ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
+    "note": null,
+    "order": 42,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-DISC-REGULAR-SSC",
+    "nameVi": "Công bố thông tin định kỳ gửi SSC",
+    "nameEn": "Periodic disclosure to SSC",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": null,
+    "order": 43,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-DEC-LABOR",
+    "nameVi": "Quyết định thanh tra, kiểm tra lao động/BHXH",
+    "nameEn": "Labour/SI inspection decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 44,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-DEC-SEC",
+    "nameVi": "Quyết định thanh tra, kiểm tra trong lĩnh vực chứng khoán",
+    "nameEn": "Securities inspection decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
+    "note": null,
+    "order": 45,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-DEC-TAX",
+    "nameVi": "Quyết định thanh tra, kiểm tra thuế",
+    "nameEn": "Tax inspection decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 46,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-EXPLAIN-LABOR",
+    "nameVi": "Văn bản giải trình/cung cấp hồ sơ cho cơ quan lao động/BHXH",
+    "nameEn": "Explanation / document submission to labour/SI authority",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 47,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-EXPLAIN-SEC",
+    "nameVi": "Văn bản giải trình/cung cấp hồ sơ cho SSC/cơ quan chứng khoán",
+    "nameEn": "Explanation / document submission to securities regulators",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
+    "note": null,
+    "order": 48,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-EXPLAIN-TAX",
+    "nameVi": "Văn bản giải trình/cung cấp hồ sơ cho cơ quan thuế",
+    "nameEn": "Explanation / document submission to tax authority",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 49,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-WORK-LABOR",
+    "nameVi": "Biên bản làm việc/biên bản vi phạm về lao động/BHXH",
+    "nameEn": "Labour/SI working minutes / violation minutes",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 50,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-WORK-SEC",
+    "nameVi": "Biên bản làm việc/biên bản vi phạm trong lĩnh vực chứng khoán",
+    "nameEn": "Securities working minutes / violation minutes",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
+    "note": null,
+    "order": 51,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-INSP-WORK-TAX",
+    "nameVi": "Biên bản làm việc/biên bản vi phạm về thuế",
+    "nameEn": "Tax working minutes / violation minutes",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 52,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-PAYBANK-ACCT",
+    "nameVi": "Hồ sơ mở/đóng tài khoản thanh toán tại ngân hàng thanh toán",
+    "nameEn": "Payment bank account opening/closing dossier",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-PAYBANK",
+    "lbListSuggested": "LB-LAW-SBV; LB-CIR-SBV-PAY",
+    "note": null,
+    "order": 53,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
       "AX-CON"
     ],
-    "note": "Tài liệu T&Cs/hợp đồng mẫu là bộ tài liệu client-facing; trục chính là dịch vụ/hợp đồng, chỉ liên đới AX-SUP khi sản phẩm cần rà regulatory.\n\nClient-facing T&Cs/model contract -> trục chính AX-SRV + AX-CON.\n\nTBD code — cần chuẩn hóa ID\n\nTài liệu cung cấp cho khách hàng (T&Cs/Hợp đồng mẫu) (TBD) là hồ sơ/tài liệu then chốt phát sinh trong quá trình tuân thủ và làm việc với cơ quan quản lý.",
-    "order": 50
+    "overlapAxes": [
+      "AX-COM",
+      "AX-CON"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-PAYBANK-CONNECT",
+    "nameVi": "Hồ sơ kết nối vận hành với ngân hàng thanh toán",
+    "nameEn": "Payment bank system connectivity dossier",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-PAYBANK",
+    "lbListSuggested": "LB-LAW-SBV; LB-CIR-SBV-PAY; LB-REG-SBV-AML",
+    "note": null,
+    "order": 54,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ],
+    "overlapAxes": [
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-ADHOC-LABOR",
+    "nameVi": "Báo cáo/giải trình theo yêu cầu của cơ quan lao động/BHXH",
+    "nameEn": "Ad-hoc report/explanation to labour/SI authority",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 55,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-ADHOC-SEC",
+    "nameVi": "Báo cáo/giải trình theo yêu cầu của SSC/cơ quan chứng khoán",
+    "nameEn": "Ad-hoc report/explanation to securities regulators",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": null,
+    "order": 56,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-ADHOC-TAX",
+    "nameVi": "Báo cáo/giải trình theo yêu cầu của cơ quan thuế",
+    "nameEn": "Ad-hoc report/explanation to tax authority",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 57,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-HNX-PER",
+    "nameVi": "Bộ báo cáo định kỳ gửi HNX",
+    "nameEn": "Periodic reports to HNX",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HNX-LIST",
+    "note": null,
+    "order": 58,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-HOSE-PER",
+    "nameVi": "Bộ báo cáo định kỳ gửi HOSE",
+    "nameEn": "Periodic reports to HOSE",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HOSE",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST",
+    "note": null,
+    "order": 59,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-REP-VSDC-PER",
+    "nameVi": "Bộ báo cáo định kỳ gửi VSDC",
+    "nameEn": "Periodic reports to VSDC",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": null,
+    "order": 60,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-DEC-LABOR",
+    "nameVi": "Quyết định xử phạt VPHC về lao động/BHXH",
+    "nameEn": "Labour/SI administrative sanction decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 61,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-DEC-SEC",
+    "nameVi": "Quyết định xử phạt VPHC trong lĩnh vực chứng khoán",
+    "nameEn": "Securities administrative sanction decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156",
+    "note": null,
+    "order": 62,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-DEC-TAX",
+    "nameVi": "Quyết định xử phạt VPHC về thuế",
+    "nameEn": "Tax administrative sanction decision",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 63,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-REMEDY-LABOR",
+    "nameVi": "Hồ sơ kế hoạch & kết quả khắc phục sau xử phạt lao động/BHXH",
+    "nameEn": "Remediation dossier after labour/SI sanction",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-LABOR-LOCAL; ST-BHXH-LOCAL",
+    "lbListSuggested": "LB-LAW-LABOR; LB-LAW-SOCIAL; LB-DEC-LABOR; LB-CIR-LABOR",
+    "note": null,
+    "order": 64,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-REMEDY-SEC",
+    "nameVi": "Hồ sơ kế hoạch & kết quả khắc phục sau xử phạt chứng khoán",
+    "nameEn": "Remediation dossier after securities sanction",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
+    "note": null,
+    "order": 65,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-SANC-REMEDY-TAX",
+    "nameVi": "Hồ sơ kế hoạch & kết quả khắc phục sau xử phạt thuế",
+    "nameEn": "Remediation dossier after tax sanction",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-TAX-LOCAL",
+    "lbListSuggested": "LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": null,
+    "order": 66,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-UPDATE-HNX-INFO",
+    "nameVi": "Hồ sơ cập nhật thông tin gửi HNX",
+    "nameEn": "Update filings to HNX",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HNX-LIST",
+    "note": null,
+    "order": 67,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-UPDATE-HOSE-INFO",
+    "nameVi": "Hồ sơ cập nhật thông tin gửi HOSE",
+    "nameEn": "Update filings to HOSE",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-HOSE",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST",
+    "note": null,
+    "order": 68,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-UPDATE-PAYBANK",
+    "nameVi": "Hồ sơ cập nhật thông tin gửi ngân hàng thanh toán",
+    "nameEn": "Update filings to payment banks",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-PAYBANK",
+    "lbListSuggested": "LB-LAW-SBV; LB-CIR-SBV-PAY; LB-REG-SBV-AML",
+    "note": null,
+    "order": 69,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ],
+    "overlapAxes": [
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-UPDATE-SBV-INFO",
+    "nameVi": "Hồ sơ cập nhật thông tin gửi NHNN/chi nhánh NHNN",
+    "nameEn": "Update filings to SBV / local SBV branch",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "MULTI-ST: ST-SBV; ST-SBV-BRANCH",
+    "lbListSuggested": "LB-LAW-SBV; LB-CIR-SBV-PAY; LB-REG-SBV-AML",
+    "note": null,
+    "order": 70,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "type": "DOC",
+    "id": "DOC-UPDATE-VSDC-INFO",
+    "nameVi": "Hồ sơ cập nhật thông tin gửi VSDC",
+    "nameEn": "Update filings to VSDC",
+    "axis": "AX-SUP",
+    "category": "KEY_DOCUMENT",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": null,
+    "order": 71,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-GOV"
+    ]
   },
   {
     "type": "PR",
@@ -2220,19 +2685,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình công bố thông tin",
     "nameEn": "Information disclosure process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nCBTT overlap AX-GOV vì gắn với minh bạch và quản trị công ty.\n\nQuy trình công bố thông tin là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 11,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nCBTT overlap AX-GOV vì gắn với minh bạch và quản trị công ty.\n\nQuy trình công bố thông tin là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 11
+    ]
   },
   {
     "type": "PR",
@@ -2240,19 +2705,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình báo cáo định kỳ SSC",
     "nameEn": "Periodic reporting to SSC process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBáo cáo định kỳ gửi SSC overlap AX-GOV vì là reporting/governance.\n\nQuy trình báo cáo định kỳ SSC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 12,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBáo cáo định kỳ gửi SSC overlap AX-GOV vì là reporting/governance.\n\nQuy trình báo cáo định kỳ SSC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 12
+    ]
   },
   {
     "type": "PR",
@@ -2260,19 +2725,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình báo cáo định kỳ HOSE/HNX/VSDC",
     "nameEn": "Periodic reporting to HOSE/HNX/VSDC process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "MULTI-ST: ST-HOSE; ST-HNX; ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
+    "note": "Đây là cụm báo cáo gửi riêng cho HOSE/HNX/VSDC; không nên hiểu là một bộ hồ sơ duy nhất ở cấp VNX.\n\nBáo cáo/hồ sơ phát sinh theo từng đầu mối HOSE/HNX/VSDC. Overlap AX-GOV vì bản chất là nghĩa vụ báo cáo/công bố.\n\nQuy trình báo cáo định kỳ HOSE/HNX/VSDC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 13,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX; ST-HOSE; ST-HNX; ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Đây là cụm báo cáo gửi riêng cho HOSE/HNX/VSDC; không nên hiểu là một bộ hồ sơ duy nhất ở cấp VNX.\n\nBáo cáo/hồ sơ phát sinh theo từng đầu mối HOSE/HNX/VSDC. Overlap AX-GOV vì bản chất là nghĩa vụ báo cáo/công bố.\n\nQuy trình báo cáo định kỳ HOSE/HNX/VSDC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 13
+    ]
   },
   {
     "type": "PR",
@@ -2280,19 +2745,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình báo cáo/giải trình bất thường",
     "nameEn": "Ad-hoc reporting/explanation process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nGiải trình/báo cáo bất thường overlap AX-GOV vì là reporting/governance.\n\nQuy trình báo cáo/giải trình bất thường là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 14,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nGiải trình/báo cáo bất thường overlap AX-GOV vì là reporting/governance.\n\nQuy trình báo cáo/giải trình bất thường là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 14
+    ]
   },
   {
     "type": "PR",
@@ -2300,19 +2765,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình lập/phê duyệt/nộp BCTC năm",
     "nameEn": "Annual FS preparation/approval/submission process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình BCTC năm gắn cả compliance và governance/disclosure.\n\nQuy trình lập/phê duyệt/nộp BCTC năm là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 15,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-LAW-TAX; LB-DEC-TAX; LB-CIR-TAX",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình BCTC năm gắn cả compliance và governance/disclosure.\n\nQuy trình lập/phê duyệt/nộp BCTC năm là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 15
+    ]
   },
   {
     "type": "PR",
@@ -2320,19 +2785,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình lập & công bố Báo cáo quản trị",
     "nameEn": "Corporate governance reporting process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBáo cáo quản trị là governance item nhưng vẫn thuộc nghĩa vụ công bố/giám sát.\n\nQuy trình lập & công bố Báo cáo quản trị là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 16,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBáo cáo quản trị là governance item nhưng vẫn thuộc nghĩa vụ công bố/giám sát.\n\nQuy trình lập & công bố Báo cáo quản trị là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 16
+    ]
   },
   {
     "type": "PR",
@@ -2340,19 +2805,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình KYC/KYB",
     "nameEn": "KYC/KYB process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình KYC/KYB là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 17,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình KYC/KYB là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 17
+    ]
   },
   {
     "type": "PR",
@@ -2360,19 +2825,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình đánh giá rủi ro AML",
     "nameEn": "AML risk assessment process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình đánh giá rủi ro AML là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 18,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình đánh giá rủi ro AML là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 18
+    ]
   },
   {
     "type": "PR",
@@ -2380,19 +2845,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình giám sát & báo cáo giao dịch AML",
     "nameEn": "AML monitoring & reporting process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML; LB-CIR-SBV-PAY",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình giám sát & báo cáo giao dịch AML là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 19,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML; LB-CIR-SBV-PAY",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình giám sát & báo cáo giao dịch AML là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 19
+    ]
   },
   {
     "type": "PR",
@@ -2400,19 +2865,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình rà soát danh sách trừng phạt",
     "nameEn": "Sanctions/blacklist screening process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SBV-AML",
+    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
+    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình rà soát danh sách trừng phạt là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 20,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SBV-AML",
-    "lbListSuggested": "LB-LAW-AML; LB-DEC-AML; LB-REG-SBV-AML",
     "overlapAxes": [
       "AX-COM"
-    ],
-    "note": "Có nghĩa vụ thuộc thanh toán/AML do NHNN/FIU giám sát.\n\nAML là chương trình compliance trọng yếu; overlap chính với AX-COM.\n\nQuy trình rà soát danh sách trừng phạt là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 20
+    ]
   },
   {
     "type": "PR",
@@ -2420,19 +2885,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình mở tài khoản giao dịch",
     "nameEn": "Securities account opening process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nMở tài khoản giao dịch là service process chịu giám sát.\n\nQuy trình mở tài khoản giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 21,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nMở tài khoản giao dịch là service process chịu giám sát.\n\nQuy trình mở tài khoản giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 21
+    ]
   },
   {
     "type": "PR",
@@ -2440,19 +2905,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình thay đổi thông tin khách hàng",
     "nameEn": "Client information change process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi thông tin khách hàng là service process chịu giám sát.\n\nQuy trình thay đổi thông tin khách hàng là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 22,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi thông tin khách hàng là service process chịu giám sát.\n\nQuy trình thay đổi thông tin khách hàng là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 22
+    ]
   },
   {
     "type": "PR",
@@ -2460,19 +2925,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình đóng tài khoản giao dịch",
     "nameEn": "Account closing process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nĐóng tài khoản giao dịch là service process chịu giám sát.\n\nQuy trình đóng tài khoản giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 23,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nĐóng tài khoản giao dịch là service process chịu giám sát.\n\nQuy trình đóng tài khoản giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 23
+    ]
   },
   {
     "type": "PR",
@@ -2480,21 +2945,21 @@ export const RAW_NODES = [
     "nameVi": "Quy trình phong tỏa/giải tỏa theo yêu cầu cơ quan nhà nước",
     "nameEn": "Freeze/unfreeze upon authority request process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-DEC-SEC-156",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Quy trình vận hành nghiệp vụ/dịch vụ cho khách hàng.\n\nQuy trình phong tỏa/giải tỏa theo yêu cầu cơ quan nhà nước là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 24,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-DEC-SEC-156",
     "overlapAxes": [
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Quy trình vận hành nghiệp vụ/dịch vụ cho khách hàng.\n\nQuy trình phong tỏa/giải tỏa theo yêu cầu cơ quan nhà nước là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 24
+    ]
   },
   {
     "type": "PR",
@@ -2502,21 +2967,21 @@ export const RAW_NODES = [
     "nameVi": "Quy trình xử lý lỗi giao dịch",
     "nameEn": "Trade error handling process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Quy trình vận hành nghiệp vụ/dịch vụ cho khách hàng.\n\nQuy trình xử lý lỗi giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 25,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST",
     "overlapAxes": [
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định. Quy trình vận hành nghiệp vụ/dịch vụ cho khách hàng.\n\nQuy trình xử lý lỗi giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 25
+    ]
   },
   {
     "type": "PR",
@@ -2524,19 +2989,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình mở tài khoản lưu ký tại VSDC",
     "nameEn": "VSDC depository account opening process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nMở tài khoản lưu ký là service process chịu giám sát.\n\nQuy trình mở tài khoản lưu ký tại VSDC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 26,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nMở tài khoản lưu ký là service process chịu giám sát.\n\nQuy trình mở tài khoản lưu ký tại VSDC là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 26
+    ]
   },
   {
     "type": "PR",
@@ -2544,19 +3009,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình nộp chứng khoán",
     "nameEn": "Securities deposit-in process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nNộp chứng khoán là service process chịu giám sát.\n\nQuy trình nộp chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 27,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nNộp chứng khoán là service process chịu giám sát.\n\nQuy trình nộp chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 27
+    ]
   },
   {
     "type": "PR",
@@ -2564,19 +3029,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình rút chứng khoán",
     "nameEn": "Securities withdrawal process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nRút chứng khoán là service process chịu giám sát.\n\nQuy trình rút chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 28,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nRút chứng khoán là service process chịu giám sát.\n\nQuy trình rút chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 28
+    ]
   },
   {
     "type": "PR",
@@ -2584,19 +3049,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình chuyển khoản chứng khoán",
     "nameEn": "Securities transfer process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nChuyển khoản chứng khoán là service process chịu giám sát.\n\nQuy trình chuyển khoản chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 29,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nChuyển khoản chứng khoán là service process chịu giám sát.\n\nQuy trình chuyển khoản chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 29
+    ]
   },
   {
     "type": "PR",
@@ -2604,19 +3069,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình thanh toán tiền–chứng khoán",
     "nameEn": "Cash-securities settlement process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThanh toán tiền-chứng khoán là service process chịu giám sát.\n\nQuy trình thanh toán tiền–chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 30,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThanh toán tiền-chứng khoán là service process chịu giám sát.\n\nQuy trình thanh toán tiền–chứng khoán là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 30
+    ]
   },
   {
     "type": "PR",
@@ -2624,19 +3089,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình mở tài khoản & giao dịch CK phái sinh",
     "nameEn": "Derivatives account opening & trading process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nPhái sinh là quy trình vận hành dịch vụ chịu giám sát.\n\nQuy trình mở tài khoản & giao dịch CK phái sinh là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 31,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nPhái sinh là quy trình vận hành dịch vụ chịu giám sát.\n\nQuy trình mở tài khoản & giao dịch CK phái sinh là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 31
+    ]
   },
   {
     "type": "PR",
@@ -2644,19 +3109,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình bù trừ/thanh toán phái sinh",
     "nameEn": "Derivatives clearing & settlement process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VSDC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBù trừ/thanh toán phái sinh là service process chịu giám sát.\n\nQuy trình bù trừ/thanh toán phái sinh là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 32,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VSDC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DEPOSIT; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nBù trừ/thanh toán phái sinh là service process chịu giám sát.\n\nQuy trình bù trừ/thanh toán phái sinh là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 32
+    ]
   },
   {
     "type": "PR",
@@ -2664,19 +3129,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình giao dịch TPCP",
     "nameEn": "Government bond trading process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-HNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nVận hành TPCP là service process chịu quy chế giám sát.\n\nQuy trình giao dịch TPCP là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 33,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-HNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-TRAD",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nVận hành TPCP là service process chịu quy chế giám sát.\n\nQuy trình giao dịch TPCP là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 33
+    ]
   },
   {
     "type": "PR",
@@ -2684,19 +3149,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình giao dịch TPDN niêm yết/ĐKGD",
     "nameEn": "Listed/registered corporate bond trading process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-DEC-BOND; LB-CIR-SEC-TRAD",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nVận hành TPDN niêm yết/ĐKGD là service process chịu quy chế giám sát.\n\nQuy trình giao dịch TPDN niêm yết/ĐKGD là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 34,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-DEC-BOND; LB-CIR-SEC-TRAD",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nVận hành TPDN niêm yết/ĐKGD là service process chịu quy chế giám sát.\n\nQuy trình giao dịch TPDN niêm yết/ĐKGD là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 34
+    ]
   },
   {
     "type": "PR",
@@ -2704,19 +3169,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình vận hành sản phẩm/dịch vụ mới",
     "nameEn": "New product/service operations process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình vận hành sản phẩm mới gắn service operation và supervisory readiness.\n\nQuy trình vận hành sản phẩm/dịch vụ mới là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 35,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM; LB-CIR-SEC-TRAD; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình vận hành sản phẩm mới gắn service operation và supervisory readiness.\n\nQuy trình vận hành sản phẩm/dịch vụ mới là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 35
+    ]
   },
   {
     "type": "PR",
@@ -2724,19 +3189,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình quyền truy cập hệ thống giao dịch (nộp HOSE/HNX/VSDC – không gộp)",
     "nameEn": "Trading system access management process (submitted separately)",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình quyền truy cập hệ thống giao dịch gắn service operation và supervisory requirement.\n\nQuy trình quyền truy cập hệ thống giao dịch (nộp HOSE/HNX/VSDC – không gộp) là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 36,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình quyền truy cập hệ thống giao dịch gắn service operation và supervisory requirement.\n\nQuy trình quyền truy cập hệ thống giao dịch (nộp HOSE/HNX/VSDC – không gộp) là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 36
+    ]
   },
   {
     "type": "PR",
@@ -2744,19 +3209,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình quản trị thay đổi hệ thống giao dịch",
     "nameEn": "Trading system change management process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi hệ thống giao dịch gắn service operation và supervisory requirement.\n\nQuy trình quản trị thay đổi hệ thống giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 37,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nThay đổi hệ thống giao dịch gắn service operation và supervisory requirement.\n\nQuy trình quản trị thay đổi hệ thống giao dịch là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 37
+    ]
   },
   {
     "type": "PR",
@@ -2764,19 +3229,19 @@ export const RAW_NODES = [
     "nameVi": "Quy trình xử lý sự cố CNTT ảnh hưởng giao dịch & báo cáo cơ quan quản lý",
     "nameEn": "IT incident handling & regulator notification process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-VNX",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nSự cố CNTT ảnh hưởng giao dịch gắn service operation và supervisory reporting.\n\nQuy trình xử lý sự cố CNTT ảnh hưởng giao dịch & báo cáo cơ quan quản lý là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 38,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-SRV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-VNX",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM",
     "overlapAxes": [
       "AX-SRV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nSự cố CNTT ảnh hưởng giao dịch gắn service operation và supervisory reporting.\n\nQuy trình xử lý sự cố CNTT ảnh hưởng giao dịch & báo cáo cơ quan quản lý là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 38
+    ]
   },
   {
     "type": "PR",
@@ -2784,21 +3249,21 @@ export const RAW_NODES = [
     "nameVi": "Quy trình phối hợp làm việc với đoàn thanh tra, kiểm tra",
     "nameEn": "Inspection coordination process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "MULTI-ST: ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
+    "note": "Không chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.\n\nQuy trình phối hợp làm việc với đoàn thanh tra, kiểm tra là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 39,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP",
     "overlapAxes": [
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Không chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.\n\nQuy trình phối hợp làm việc với đoàn thanh tra, kiểm tra là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 39
+    ]
   },
   {
     "type": "PR",
@@ -2806,21 +3271,21 @@ export const RAW_NODES = [
     "nameVi": "Quy trình lập kế hoạch & thực hiện khắc phục sau xử phạt",
     "nameEn": "Post-sanction remediation process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "MULTI-ST: ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
+    "note": "Không chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.\n\nQuy trình lập kế hoạch & thực hiện khắc phục sau xử phạt là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 40,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
     "overlapAxes": [
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Không chỉ phát sinh trong lĩnh vực chứng khoán; logic tương tự có thể phát sinh từ cơ quan Thuế, BHXH hoặc cơ quan thanh tra khác.\n\nNên dùng logic đa cơ quan. Nếu có yêu cầu cung cấp hồ sơ từ cơ quan công an hoặc cơ quan khác thì xử lý theo cùng khung phối hợp/khắc phục.\n\nQuy trình lập kế hoạch & thực hiện khắc phục sau xử phạt là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 40
+    ]
   },
   {
     "type": "PR",
@@ -2828,16 +3293,16 @@ export const RAW_NODES = [
     "nameVi": "Quy trình đăng ký thay đổi GCN ĐKDN",
     "nameEn": "Enterprise registration change process",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-DOF-PROV",
+    "lbListSuggested": "LB-LAW-ENT",
+    "note": "Có nghĩa vụ đăng ký doanh nghiệp/đăng ký thay đổi với cơ quan ĐKKD.\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định.\n\nQuy trình đăng ký thay đổi GCN ĐKDN là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 41,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-DOF-PROV",
-    "lbListSuggested": "LB-LAW-ENT",
-    "overlapAxes": [],
-    "note": "Có nghĩa vụ đăng ký doanh nghiệp/đăng ký thay đổi với cơ quan ĐKKD.\n\nTuân thủ nội bộ để đáp ứng yêu cầu giám sát/quy định.\n\nQuy trình đăng ký thay đổi GCN ĐKDN là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 41
+    "overlapAxes": []
   },
   {
     "type": "PR",
@@ -2845,65 +3310,65 @@ export const RAW_NODES = [
     "nameVi": "Quy trình làm việc với SSC khi thay đổi thông tin giấy phép CTCK",
     "nameEn": "Process to work with SSC on securities license changes",
     "axis": "AX-SUP",
+    "category": "PROCESS",
+    "stPrimarySuggested": "ST-SSC",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
+    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình cập nhật giấy phép CTCK gắn với quản trị thay đổi thông tin pháp lý.\n\nQuy trình làm việc với SSC khi thay đổi thông tin giấy phép CTCK là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 42,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-GOV"
     ],
-    "category": "PROCESS",
-    "stPrimarySuggested": "ST-SSC",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
     "overlapAxes": [
       "AX-GOV"
-    ],
-    "note": "Có nghĩa vụ chịu giám sát/quy chế trong lĩnh vực chứng khoán (SSC/Sở/VSDC).\n\nQuy trình cập nhật giấy phép CTCK gắn với quản trị thay đổi thông tin pháp lý.\n\nQuy trình làm việc với SSC khi thay đổi thông tin giấy phép CTCK là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 42
+    ]
   },
   {
     "type": "PR",
     "id": "PR-RISK-NEWBIZ-01",
     "nameVi": "Quy trình phê duyệt & đánh giá rủi ro sản phẩm/dịch vụ mới",
     "nameEn": "New product/service approval & risk assessment process",
-    "axis": "AX-GOV",
-    "primaryAxis": "AX-GOV",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV",
-      "AX-COM",
-      "AX-SRV"
-    ],
+    "axis": "AX-SUP",
     "category": "PROCESS",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM",
-    "overlapAxes": [
+    "note": "Quy trình phê duyệt & đánh giá rủi ro sản phẩm mới là cơ chế nội bộ của PHS; trục chính là governance/compliance/service design.\n\nInternal approval/risk framework -> AX-GOV + AX-COM + AX-SRV; chỉ cross-reference sang AX-SUP.\n\nQuy trình phê duyệt & đánh giá rủi ro sản phẩm/dịch vụ mới là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
+    "order": 43,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
       "AX-SUP",
       "AX-COM",
+      "AX-GOV",
       "AX-SRV"
     ],
-    "note": "Quy trình phê duyệt & đánh giá rủi ro sản phẩm mới là cơ chế nội bộ của PHS; trục chính là governance/compliance/service design.\n\nInternal approval/risk framework -> AX-GOV + AX-COM + AX-SRV; chỉ cross-reference sang AX-SUP.\n\nQuy trình phê duyệt & đánh giá rủi ro sản phẩm/dịch vụ mới là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 43
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "type": "PR",
     "id": "PR-IT-ACCESS-GEN-01",
     "nameVi": "Quy trình quản lý quyền truy cập CNTT (chung)",
     "nameEn": "General IT access management process",
-    "axis": "AX-GOV",
-    "primaryAxis": "AX-GOV",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV",
-      "AX-COM"
-    ],
+    "axis": "AX-SUP",
     "category": "PROCESS",
     "stPrimarySuggested": "ST-SSC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155",
-    "overlapAxes": [
-      "AX-SUP",
-      "AX-COM"
-    ],
     "note": "Quy trình quyền truy cập CNTT (chung) thiên về kiểm soát nội bộ/governance; chỉ nên nối sang AX-SUP khi có yêu cầu quy định làm nền.\n\nKhác với PR-IT-ACCESS-TRAD-01, đây là quy trình CNTT chung nên trục chính là governance/compliance.\n\nQuy trình quản lý quyền truy cập CNTT (chung) là quy trình nội bộ phục vụ nghĩa vụ tuân thủ, báo cáo hoặc phối hợp với cơ quan/bên giám sát.",
-    "order": 44
+    "order": 44,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ],
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "type": "EV",
@@ -3030,21 +3495,21 @@ export const RAW_NODES = [
     "nameVi": "Bị xử phạt / kết luận thanh tra, kiểm tra",
     "nameEn": "Administrative sanctions / inspection conclusion",
     "axis": "AX-SUP",
+    "category": "EVENT",
+    "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX; ST-VSDC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT; ST-STATEAUDIT",
+    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
+    "note": "Sự kiện kích hoạt DOC/PR\n\nKích hoạt khi: Khi có quyết định thanh tra, kiểm tra hoặc quyết định xử phạt và yêu cầu khắc phục.\n\nSự kiện thanh tra/xử phạt có thể phát sinh từ chứng khoán, thuế, BHXH hoặc cơ quan thanh tra khác; nếu cơ quan công an yêu cầu cung cấp hồ sơ thì dùng cùng khung phối hợp.\n\nSự kiện kích hoạt DOC/PR\n\nBị xử phạt / kết luận thanh tra, kiểm tra là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
+    "order": 8,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
     ],
-    "category": "EVENT",
-    "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX; ST-VSDC; ST-TAX-LOCAL; ST-BHXH-LOCAL; ST-GOVINSPECT; ST-STATEAUDIT",
-    "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-156; LB-REG-SSC-REP; LB-CIR-SEC-DISC",
     "overlapAxes": [
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Kích hoạt khi: Khi có quyết định thanh tra, kiểm tra hoặc quyết định xử phạt và yêu cầu khắc phục.\n\nSự kiện thanh tra/xử phạt có thể phát sinh từ chứng khoán, thuế, BHXH hoặc cơ quan thanh tra khác; nếu cơ quan công an yêu cầu cung cấp hồ sơ thì dùng cùng khung phối hợp.\n\nSự kiện kích hoạt DOC/PR\n\nBị xử phạt / kết luận thanh tra, kiểm tra là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
-    "order": 8
+    ]
   },
   {
     "type": "EV",
@@ -3052,21 +3517,21 @@ export const RAW_NODES = [
     "nameVi": "Bổ sung / thay đổi nghiệp vụ chứng khoán",
     "nameEn": "Add/change securities business lines",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-SRV",
-      "AX-COM"
-    ],
     "category": "EVENT",
     "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX; ST-VSDC",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-SRV",
-      "AX-COM"
+    "note": "Sự kiện kích hoạt DOC/PR\n\nKích hoạt khi: Khi xin cấp mới hoặc điều chỉnh nghiệp vụ chứng khoán của CTCK.\n\nSản phẩm/ nghiệp vụ mới → vận hành dịch vụ + tuân thủ/kiểm soát rủi ro.\n\nSự kiện kích hoạt DOC/PR\n\nBổ sung / thay đổi nghiệp vụ chứng khoán là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
+    "order": 9,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
     ],
-    "note": "Kích hoạt khi: Khi xin cấp mới hoặc điều chỉnh nghiệp vụ chứng khoán của CTCK.\n\nSản phẩm/ nghiệp vụ mới → vận hành dịch vụ + tuân thủ/kiểm soát rủi ro.\n\nSự kiện kích hoạt DOC/PR\n\nBổ sung / thay đổi nghiệp vụ chứng khoán là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
-    "order": 9
+    "overlapAxes": [
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "type": "EV",
@@ -3074,21 +3539,21 @@ export const RAW_NODES = [
     "nameVi": "Triển khai sản phẩm / dịch vụ đầu tư mới (trong phạm vi đã được cấp phép)",
     "nameEn": "Launch a new investment product/service (within licensed scope)",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-SRV",
-      "AX-COM"
-    ],
     "category": "EVENT",
     "stPrimarySuggested": "ST-SSC; ST-HOSE; ST-HNX; ST-VSDC; ST-SBV-AML",
     "lbListSuggested": "LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-FIRM; LB-CIR-SEC-DISC; LB-REG-HOSE-LIST; LB-REG-HNX-LIST; LB-REG-VSDC-MEM; LB-REG-SBV-AML",
-    "overlapAxes": [
-      "AX-SRV",
-      "AX-COM"
+    "note": "Sự kiện kích hoạt DOC/PR\n\nKích hoạt khi: Khi triển khai sản phẩm/dịch vụ mới nhưng vẫn nằm trong phạm vi nghiệp vụ đã được cấp phép.\n\nPhân biệt rõ: hồ sơ nội bộ phê duyệt sản phẩm và T&Cs khách hàng không phải supervisory routine item; chỉ cross-reference sang AX-SUP khi cần đối chiếu với filing/regulatory requirement.\n\nSự kiện kích hoạt DOC/PR\n\nTriển khai sản phẩm / dịch vụ đầu tư mới (trong phạm vi đã được cấp phép) là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
+    "order": 10,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
     ],
-    "note": "Kích hoạt khi: Khi triển khai sản phẩm/dịch vụ mới nhưng vẫn nằm trong phạm vi nghiệp vụ đã được cấp phép.\n\nPhân biệt rõ: hồ sơ nội bộ phê duyệt sản phẩm và T&Cs khách hàng không phải supervisory routine item; chỉ cross-reference sang AX-SUP khi cần đối chiếu với filing/regulatory requirement.\n\nSự kiện kích hoạt DOC/PR\n\nTriển khai sản phẩm / dịch vụ đầu tư mới (trong phạm vi đã được cấp phép) là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
-    "order": 10
+    "overlapAxes": [
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "type": "EV",
@@ -3096,21 +3561,21 @@ export const RAW_NODES = [
     "nameVi": "Tăng vốn điều lệ",
     "nameEn": "Increase charter capital",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV",
-      "AX-COM"
-    ],
     "category": "EVENT",
     "stPrimarySuggested": "ST-DOF-PROV; ST-SSC; ST-HOSE; ST-HNX; ST-TAX-LOCAL",
     "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP; LB-DEC-TAX",
-    "overlapAxes": [
-      "AX-GOV",
-      "AX-COM"
+    "note": "Sự kiện kích hoạt DOC/PR\n\nKích hoạt khi: Khi công ty thực hiện thủ tục tăng vốn điều lệ và/hoặc phát hành để tăng vốn.\n\nThay đổi thông tin công ty → quản trị/công bố thông tin + tuân thủ.\n\nSự kiện kích hoạt DOC/PR\n\nTăng vốn điều lệ là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
+    "order": 11,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
     ],
-    "note": "Kích hoạt khi: Khi công ty thực hiện thủ tục tăng vốn điều lệ và/hoặc phát hành để tăng vốn.\n\nThay đổi thông tin công ty → quản trị/công bố thông tin + tuân thủ.\n\nSự kiện kích hoạt DOC/PR\n\nTăng vốn điều lệ là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
-    "order": 11
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "type": "EV",
@@ -3118,21 +3583,21 @@ export const RAW_NODES = [
     "nameVi": "Thay đổi trụ sở chính",
     "nameEn": "Change head office address",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-GOV",
-      "AX-COM"
-    ],
     "category": "EVENT",
     "stPrimarySuggested": "ST-DOF-PROV; ST-SSC; ST-HOSE; ST-HNX; ST-TAX-LOCAL; ST-SBV-BRANCH",
     "lbListSuggested": "LB-LAW-ENT; LB-LAW-SEC; LB-DEC-SEC-155; LB-CIR-SEC-DISC; LB-REG-SSC-REP",
-    "overlapAxes": [
-      "AX-GOV",
-      "AX-COM"
+    "note": "Sự kiện kích hoạt DOC/PR\n\nKích hoạt khi: Khi thay đổi địa chỉ trụ sở chính của công ty.\n\nThay đổi thông tin công ty → quản trị/công bố thông tin + tuân thủ.\n\nSự kiện kích hoạt DOC/PR\n\nThay đổi trụ sở chính là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
+    "order": 12,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
     ],
-    "note": "Kích hoạt khi: Khi thay đổi địa chỉ trụ sở chính của công ty.\n\nThay đổi thông tin công ty → quản trị/công bố thông tin + tuân thủ.\n\nSự kiện kích hoạt DOC/PR\n\nThay đổi trụ sở chính là sự kiện vận hành có thể kích hoạt nghĩa vụ báo cáo, cập nhật hồ sơ hoặc xử lý tuân thủ.",
-    "order": 12
+    "overlapAxes": [
+      "AX-COM",
+      "AX-GOV"
+    ]
   }
 ];
 
@@ -4837,14 +5302,14 @@ export const RAW_EDGES = [
     "relation": "SUPERVISES/RECEIVES",
     "target": "DOC-BHXH-REGISTER",
     "targetType": "DOC",
-    "axis": "AX-EMP",
-    "note": "Hồ sơ nộp / duy trì với cơ quan BHXH.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý). Liên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.",
+    "axis": "AX-SUP",
+    "note": "Hồ sơ nộp / duy trì với cơ quan BHXH.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý). Liên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
     "confidence": "HIGH",
-    "otherAxes": "AX-SUP; AX-COM",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
     "order": 95,
-    "primaryAxis": "AX-EMP",
+    "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-EMP",
       "AX-SUP",
@@ -5759,38 +6224,19 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 143,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 143
-  },
-  {
-    "source": "EV-BIZ-ADD",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 144
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5799,18 +6245,19 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-BIZ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 144,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 145
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5819,18 +6266,19 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 145,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 146
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5839,18 +6287,19 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 146,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 147
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5859,18 +6308,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 147,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 148
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5879,17 +6328,18 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 148,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 149
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-BIZ-ADD",
@@ -5898,18 +6348,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 149,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 150
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -5918,38 +6368,18 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 150,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 151
-  },
-  {
-    "source": "EV-CAP-INC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 152
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -5958,18 +6388,18 @@ export const RAW_EDGES = [
     "target": "DOC-ENT-ERC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 151,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 153
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -5978,18 +6408,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-CAP",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 152,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 154
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -5998,18 +6428,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 153,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 155
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -6018,17 +6448,18 @@ export const RAW_EDGES = [
     "target": "PR-ENT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 154,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 156
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -6037,18 +6468,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 155,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 157
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -6057,18 +6488,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 156,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 158
+    ]
   },
   {
     "source": "EV-CAP-INC",
@@ -6077,17 +6508,18 @@ export const RAW_EDGES = [
     "target": "PR-SEC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 157,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 159
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6096,38 +6528,18 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 158,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 160
-  },
-  {
-    "source": "EV-HQ-CHANGE",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 161
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6136,18 +6548,18 @@ export const RAW_EDGES = [
     "target": "DOC-ENT-ERC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 159,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 162
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6156,37 +6568,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-HQ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 160,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 163
-  },
-  {
-    "source": "EV-HQ-CHANGE",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-TBD-UPDATE-OTHERS",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-TBD-UPDATE-OTHERS: Đổi sang logic multi-stakeholder, ghi rõ bộ hồ sơ tách riêng theo từng đơn vị nhận.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 164
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6195,18 +6588,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 161,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 165
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6215,17 +6608,18 @@ export const RAW_EDGES = [
     "target": "PR-ENT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 162,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 166
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6234,18 +6628,19 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 163,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
+      "AX-GOV",
       "AX-SRV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 167
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6254,18 +6649,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 164,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 168
+    ]
   },
   {
     "source": "EV-HQ-CHANGE",
@@ -6274,57 +6669,18 @@ export const RAW_EDGES = [
     "target": "PR-SEC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
     "confidence": "HIGH",
-    "otherAxes": "AX-COM",
+    "otherAxes": "AX-COM; AX-GOV",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 169
-  },
-  {
-    "source": "EV-PROD-NEW",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 165,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 170
-  },
-  {
-    "source": "EV-PROD-NEW",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 171
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6333,17 +6689,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-CLIENT-TC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 166,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 172
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6352,17 +6709,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-PROD-APPROVAL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 167,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 173
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6371,17 +6729,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-REG-REG",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.\n\nSự kiện kích hoạt lập/cập nhật hồ sơ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 168,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 174
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6390,18 +6749,19 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 169,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 175
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6410,18 +6770,19 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 170,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 176
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6430,18 +6791,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 171,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 177
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6450,17 +6811,18 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 172,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 178
+      "AX-COM",
+      "AX-SRV"
+    ]
   },
   {
     "source": "EV-PROD-NEW",
@@ -6469,133 +6831,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 173,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 179
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 180
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-INSP-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-INSP-DEC: Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 181
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-INSP-EXPLAIN",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-INSP-EXPLAIN: Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 182
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-INSP-WORK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-INSP-WORK: Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 183
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-SANC-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-SANC-DEC: Khái quát lại theo logic đa cơ quan xử phạt.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 184
-  },
-  {
-    "source": "EV-SANC",
-    "sourceType": "EV",
-    "relation": "TRIGGERS",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ.\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 185
+    ]
   },
   {
     "source": "EV-SANC",
@@ -6604,18 +6851,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 174,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 186
+    ]
   },
   {
     "source": "EV-SANC",
@@ -6624,17 +6871,18 @@ export const RAW_EDGES = [
     "target": "PR-INSP-COORD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 175,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 187
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "EV-SANC",
@@ -6643,17 +6891,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt quy trình liên quan.\n\nSự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
+    "confidence": "HIGH",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 176,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Sự kiện kích hoạt/đòi hỏi kích hoạt quy trình nội bộ.",
-    "confidence": "HIGH",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 188
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-CIR-LABOR",
@@ -6662,18 +6911,18 @@ export const RAW_EDGES = [
     "target": "DOC-LABOR-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 189
+    "order": 177,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-CIR-SBV-PAY",
@@ -6682,39 +6931,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 178,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 190
-  },
-  {
-    "source": "LB-CIR-SBV-PAY",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-MEM-PAYBANK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-CON",
-      "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-PAYBANK: Làm rõ đây là hồ sơ mở/đóng TK thanh toán + kết nối ngân hàng thanh toán.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 191
+    ]
   },
   {
     "source": "LB-CIR-SBV-PAY",
@@ -6723,18 +6951,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-MON-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 179,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 192
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6743,19 +6971,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-VSDC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 180,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 193
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6764,18 +6992,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-IN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 181,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 194
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6784,18 +7012,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 182,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 195
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6804,18 +7032,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OUT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 183,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 196
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6824,18 +7052,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 184,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 197
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6844,18 +7072,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-TRANSFER-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 185,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 198
+    ]
   },
   {
     "source": "LB-CIR-SEC-DEPOSIT",
@@ -6864,98 +7092,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 186,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 199
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 200
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 201
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 202
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-SSC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-SSC-ADHOC: Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 203
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -6964,127 +7112,18 @@ export const RAW_EDGES = [
     "target": "DOC-REP-SSC-PER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 187,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 204
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 205
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-BIZ-ADD",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 206
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 207
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-HQ-CHANGE",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 208
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 209
-  },
-  {
-    "source": "LB-CIR-SEC-DISC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-SANC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 210
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7093,18 +7132,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 188,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 211
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7113,18 +7152,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 189,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 212
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7133,18 +7172,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-ADHOC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 190,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 213
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7153,18 +7192,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 191,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 214
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7173,18 +7212,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 192,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 215
+    ]
   },
   {
     "source": "LB-CIR-SEC-DISC",
@@ -7193,17 +7232,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 193,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 216
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7212,18 +7252,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-BIZ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 194,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 217
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7232,18 +7272,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 195,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 218
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7252,17 +7292,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-CLIENT-TC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 196,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 219
+      "AX-COM",
+      "AX-CON",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7271,53 +7313,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-PROD-APPROVAL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 197,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 220
-  },
-  {
-    "source": "LB-CIR-SEC-FIRM",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-BIZ-ADD",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 221
-  },
-  {
-    "source": "LB-CIR-SEC-FIRM",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 222
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7326,17 +7334,19 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 198,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 223
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-CIR-SEC-FIRM",
@@ -7345,18 +7355,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 199,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 224
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7365,19 +7375,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HNX",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 200,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 225
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7386,19 +7396,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HOSE",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 201,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 226
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7407,18 +7417,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 202,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 227
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7427,18 +7437,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CLOSE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 203,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 228
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7447,18 +7457,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 204,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 229
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7467,18 +7477,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-CORP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 205,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 230
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7487,18 +7497,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-GOV-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 206,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 231
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7507,18 +7517,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-AC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 207,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 232
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7527,18 +7537,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 208,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 233
+    ]
   },
   {
     "source": "LB-CIR-SEC-TRAD",
@@ -7547,18 +7557,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 209,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 234
+    ]
   },
   {
     "source": "LB-CIR-TAX",
@@ -7567,17 +7577,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 210,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 235
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-CIR-TAX",
@@ -7586,18 +7597,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-DECL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 211,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 236
+    ]
   },
   {
     "source": "LB-CIR-TAX",
@@ -7606,18 +7617,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 212,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 237
+    ]
   },
   {
     "source": "LB-CIR-TAX",
@@ -7626,17 +7637,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 213,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 238
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7645,18 +7657,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 214,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 239
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7665,18 +7677,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 215,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 240
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7685,18 +7697,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-KYC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 216,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 241
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7705,18 +7717,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-MON-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 217,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 242
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7725,18 +7737,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 218,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 243
+    ]
   },
   {
     "source": "LB-DEC-AML",
@@ -7745,18 +7757,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-SANCTION-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 219,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 244
+    ]
   },
   {
     "source": "LB-DEC-BOND",
@@ -7765,18 +7777,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-CORP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 220,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 245
+    ]
   },
   {
     "source": "LB-DEC-LABOR",
@@ -7785,18 +7797,18 @@ export const RAW_EDGES = [
     "target": "DOC-BHXH-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 246
+    "order": 221,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-DEC-LABOR",
@@ -7805,18 +7817,18 @@ export const RAW_EDGES = [
     "target": "DOC-BHXH-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 247
+    "order": 222,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-DEC-LABOR",
@@ -7825,58 +7837,18 @@ export const RAW_EDGES = [
     "target": "DOC-LABOR-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 248
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 223,
     "primaryAxis": "AX-SUP",
     "axisList": [
+      "AX-EMP",
       "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 249
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 250
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -7885,17 +7857,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 224,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 251
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -7904,19 +7877,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HNX",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 225,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 252
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -7925,19 +7898,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HOSE",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 226,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 253
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -7946,59 +7919,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-VSDC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 227,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 254
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 255
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-SSC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-SSC-ADHOC: Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 256
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8007,18 +7940,18 @@ export const RAW_EDGES = [
     "target": "DOC-REP-SSC-PER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 228,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 257
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8027,18 +7960,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-BIZ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 229,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 258
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8047,18 +7980,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-CAP",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 230,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 259
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8067,18 +8000,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-HQ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 231,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 260
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8087,18 +8020,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAIN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 232,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 261
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8107,18 +8040,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 233,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 262
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8127,17 +8060,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-CLIENT-TC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 234,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 263
+      "AX-COM",
+      "AX-CON",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8146,17 +8081,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-PROD-APPROVAL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 235,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 264
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8165,108 +8102,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-REG-REG",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 236,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 265
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-TBD-UPDATE-OTHERS",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-UPDATE-OTHERS: Đổi sang logic multi-stakeholder, ghi rõ bộ hồ sơ tách riêng theo từng đơn vị nhận.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 266
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-BIZ-ADD",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 267
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 268
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-HQ-CHANGE",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 269
-  },
-  {
-    "source": "LB-DEC-SEC-155",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 270
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8275,18 +8122,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 237,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 271
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8295,18 +8142,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CLOSE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 238,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 272
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8315,18 +8162,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-FREEZE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 239,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 273
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8335,18 +8182,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 240,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 274
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8355,18 +8202,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-CORP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 241,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 275
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8375,18 +8222,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-GOV-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 242,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 276
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8395,18 +8242,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-IN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 243,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 277
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8415,18 +8262,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 244,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 278
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8435,18 +8282,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OUT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 245,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 279
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8455,18 +8302,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 246,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 280
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8475,18 +8322,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-TRANSFER-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 247,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 281
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8495,18 +8342,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-AC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 248,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 282
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8515,18 +8362,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 249,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 283
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8535,18 +8382,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 250,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 284
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8555,17 +8402,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 251,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 285
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8574,18 +8422,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 252,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 286
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8594,18 +8442,19 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-GEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 253,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
+      "AX-GOV",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 287
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8614,18 +8463,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 254,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 288
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8634,18 +8483,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 255,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 289
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8654,18 +8503,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 256,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 290
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8674,18 +8523,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-ADHOC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 257,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 291
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8694,18 +8543,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 258,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 292
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8714,18 +8563,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 259,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 293
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8734,17 +8583,19 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 260,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 294
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8753,17 +8604,18 @@ export const RAW_EDGES = [
     "target": "PR-SEC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 261,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 295
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8772,18 +8624,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 262,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 296
+    ]
   },
   {
     "source": "LB-DEC-SEC-155",
@@ -8792,131 +8644,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 263,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 297
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-DEC: Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 298
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-EXPLAIN",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-EXPLAIN: Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 299
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-WORK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-WORK: Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 300
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-DEC: Khái quát lại theo logic đa cơ quan xử phạt.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 301
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 302
-  },
-  {
-    "source": "LB-DEC-SEC-156",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-SANC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 303
+    ]
   },
   {
     "source": "LB-DEC-SEC-156",
@@ -8925,18 +8664,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-FREEZE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 264,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 304
+    ]
   },
   {
     "source": "LB-DEC-SEC-156",
@@ -8945,17 +8684,18 @@ export const RAW_EDGES = [
     "target": "PR-INSP-COORD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 265,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 305
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-SEC-156",
@@ -8964,17 +8704,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 266,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 306
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-TAX",
@@ -8983,17 +8724,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 267,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 307
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-DEC-TAX",
@@ -9002,18 +8744,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-DECL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 268,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 308
+    ]
   },
   {
     "source": "LB-DEC-TAX",
@@ -9022,36 +8764,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 269,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 309
-  },
-  {
-    "source": "LB-DEC-TAX",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 310
+    ]
   },
   {
     "source": "LB-DEC-TAX",
@@ -9060,17 +8784,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 270,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 311
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9079,18 +8804,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 271,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 312
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9099,18 +8824,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 272,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 313
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9119,18 +8844,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-KYC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 273,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 314
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9139,18 +8864,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-MON-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 274,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 315
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9159,18 +8884,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 275,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 316
+    ]
   },
   {
     "source": "LB-LAW-AML",
@@ -9179,18 +8904,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-SANCTION-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 276,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 317
+    ]
   },
   {
     "source": "LB-LAW-ENT",
@@ -9199,18 +8924,18 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 277,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 318
+    ]
   },
   {
     "source": "LB-LAW-ENT",
@@ -9219,54 +8944,18 @@ export const RAW_EDGES = [
     "target": "DOC-ENT-ERC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 278,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 319
-  },
-  {
-    "source": "LB-LAW-ENT",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 320
-  },
-  {
-    "source": "LB-LAW-ENT",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-HQ-CHANGE",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 321
+    ]
   },
   {
     "source": "LB-LAW-ENT",
@@ -9275,17 +8964,17 @@ export const RAW_EDGES = [
     "target": "PR-ENT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
     "confidence": "MEDIUM",
     "otherAxes": "AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 322
+    "order": 279,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-LAW-ENT",
@@ -9294,18 +8983,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 280,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 323
+    ]
   },
   {
     "source": "LB-LAW-LABOR",
@@ -9314,39 +9003,18 @@ export const RAW_EDGES = [
     "target": "DOC-LABOR-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 324
-  },
-  {
-    "source": "LB-LAW-SBV",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-MEM-PAYBANK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 281,
     "primaryAxis": "AX-SUP",
     "axisList": [
+      "AX-EMP",
       "AX-SUP",
-      "AX-COM",
-      "AX-CON",
-      "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-PAYBANK: Làm rõ đây là hồ sơ mở/đóng TK thanh toán + kết nối ngân hàng thanh toán.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 325
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9355,58 +9023,18 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 282,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 326
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 327
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 328
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9415,74 +9043,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 283,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 329
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-DEC: Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 330
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-EXPLAIN",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-EXPLAIN: Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 331
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-WORK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-WORK: Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 332
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9491,19 +9063,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HNX",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 284,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 333
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9512,19 +9084,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HOSE",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 285,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 334
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9533,59 +9105,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-VSDC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 286,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 335
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 336
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-SSC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-SSC-ADHOC: Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 337
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9594,56 +9126,18 @@ export const RAW_EDGES = [
     "target": "DOC-REP-SSC-PER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 287,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 338
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-DEC: Khái quát lại theo logic đa cơ quan xử phạt.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 339
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 340
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9652,18 +9146,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-BIZ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 288,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 341
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9672,18 +9166,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-CAP",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 289,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 342
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9692,18 +9186,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-HQ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 290,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 343
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9712,18 +9206,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAIN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 291,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 344
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9732,18 +9226,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 292,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 345
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9752,17 +9246,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-CLIENT-TC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 293,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 346
+      "AX-COM",
+      "AX-CON",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9771,17 +9267,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-PROD-APPROVAL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 294,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 347
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9790,126 +9288,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-REG-REG",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 295,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 348
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-TBD-UPDATE-OTHERS",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TBD-UPDATE-OTHERS: Đổi sang logic multi-stakeholder, ghi rõ bộ hồ sơ tách riêng theo từng đơn vị nhận.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 349
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-BIZ-ADD",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 350
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 351
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-HQ-CHANGE",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 352
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 353
-  },
-  {
-    "source": "LB-LAW-SEC",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-SANC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 354
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9918,18 +9308,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 296,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 355
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9938,18 +9328,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CLOSE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 297,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 356
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9958,18 +9348,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-FREEZE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 298,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 357
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9978,18 +9368,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 299,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 358
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -9998,18 +9388,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-CORP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 300,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 359
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10018,18 +9408,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-GOV-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 301,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 360
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10038,18 +9428,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-IN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 302,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 361
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10058,18 +9448,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 303,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 362
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10078,18 +9468,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OUT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 304,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 363
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10098,18 +9488,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 305,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 364
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10118,18 +9508,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-TRANSFER-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 306,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 365
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10138,18 +9528,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-AC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 307,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 366
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10158,18 +9548,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 308,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 367
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10178,18 +9568,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 309,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 368
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10198,17 +9588,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 310,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 369
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10217,18 +9608,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 311,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 370
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10237,17 +9628,18 @@ export const RAW_EDGES = [
     "target": "PR-INSP-COORD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 312,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 371
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10256,18 +9648,19 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-GEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 313,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
+      "AX-GOV",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 372
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10276,18 +9669,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 314,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 373
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10296,18 +9689,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 315,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 374
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10316,18 +9709,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 316,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 375
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10336,18 +9729,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-ADHOC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 317,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 376
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10356,18 +9749,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 318,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 377
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10376,18 +9769,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 319,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 378
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10396,17 +9789,19 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 320,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 379
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10415,17 +9810,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 321,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 380
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10434,17 +9830,18 @@ export const RAW_EDGES = [
     "target": "PR-SEC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 322,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 381
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10453,18 +9850,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 323,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 382
+    ]
   },
   {
     "source": "LB-LAW-SEC",
@@ -10473,18 +9870,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 324,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 383
+    ]
   },
   {
     "source": "LB-LAW-SOCIAL",
@@ -10493,18 +9890,18 @@ export const RAW_EDGES = [
     "target": "DOC-BHXH-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-BHXH-REGISTER: Bổ sung note về khả năng phát sinh survey/thống kê lao động riêng.\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 384
+    "order": 325,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-LAW-SOCIAL",
@@ -10513,18 +9910,18 @@ export const RAW_EDGES = [
     "target": "DOC-BHXH-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
+    "note": "Căn cứ pháp lý neo (gợi ý).\n\nCăn cứ pháp lý neo cho hồ sơ/quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 385
+    "order": 326,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "LB-LAW-TAX",
@@ -10533,17 +9930,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 327,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 386
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-LAW-TAX",
@@ -10552,18 +9950,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-DECL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 328,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 387
+    ]
   },
   {
     "source": "LB-LAW-TAX",
@@ -10572,18 +9970,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 329,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 388
+    ]
   },
   {
     "source": "LB-LAW-TAX",
@@ -10592,17 +9990,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 330,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 389
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10611,57 +10010,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HNX",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 331,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 390
-  },
-  {
-    "source": "LB-REG-HNX-LIST",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 391
-  },
-  {
-    "source": "LB-REG-HNX-LIST",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 392
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10670,18 +10031,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 332,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 393
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10690,18 +10051,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 333,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 394
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10710,18 +10071,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 334,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 395
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10730,18 +10091,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 335,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 396
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10750,18 +10111,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 336,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 397
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10770,18 +10131,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 337,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 398
+    ]
   },
   {
     "source": "LB-REG-HNX-LIST",
@@ -10790,18 +10151,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 338,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 399
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10810,57 +10171,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HOSE",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 339,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 400
-  },
-  {
-    "source": "LB-REG-HOSE-LIST",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 401
-  },
-  {
-    "source": "LB-REG-HOSE-LIST",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 402
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10869,18 +10192,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 340,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 403
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10889,18 +10212,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 341,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 404
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10909,18 +10232,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 342,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 405
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10929,18 +10252,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 343,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 406
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10949,18 +10272,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 344,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 407
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10969,18 +10292,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 345,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 408
+    ]
   },
   {
     "source": "LB-REG-HOSE-LIST",
@@ -10989,18 +10312,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 346,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 409
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11009,18 +10332,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 347,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 410
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11029,57 +10352,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 348,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 411
-  },
-  {
-    "source": "LB-REG-SBV-AML",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-MEM-PAYBANK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-CON",
-      "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-MEM-PAYBANK: Làm rõ đây là hồ sơ mở/đóng TK thanh toán + kết nối ngân hàng thanh toán.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 412
-  },
-  {
-    "source": "LB-REG-SBV-AML",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 413
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11088,18 +10372,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-KYC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 349,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 414
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11108,18 +10392,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-MON-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 350,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 415
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11128,18 +10412,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 351,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 416
+    ]
   },
   {
     "source": "LB-REG-SBV-AML",
@@ -11148,95 +10432,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-SANCTION-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 352,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 417
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-DEC: Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 418
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-EXPLAIN",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-EXPLAIN: Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 419
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-INSP-WORK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-INSP-WORK: Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 420
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-SSC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-SSC-ADHOC: Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 421
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11245,109 +10452,18 @@ export const RAW_EDGES = [
     "target": "DOC-REP-SSC-PER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 353,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 422
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 423
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-BIZ-ADD",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 424
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-CAP-INC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 425
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-HQ-CHANGE",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 426
-  },
-  {
-    "source": "LB-REG-SSC-REP",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-SANC",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 427
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11356,18 +10472,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 354,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 428
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11376,17 +10492,18 @@ export const RAW_EDGES = [
     "target": "PR-INSP-COORD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 355,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 429
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11395,18 +10512,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-ADHOC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 356,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 430
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11415,18 +10532,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 357,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 431
+    ]
   },
   {
     "source": "LB-REG-SSC-REP",
@@ -11435,17 +10552,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 358,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 432
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11454,57 +10572,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-VSDC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 359,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 433
-  },
-  {
-    "source": "LB-REG-VSDC-MEM",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 434
-  },
-  {
-    "source": "LB-REG-VSDC-MEM",
-    "sourceType": "LB",
-    "relation": "BASIS_FOR",
-    "target": "EV-PROD-NEW",
-    "targetType": "EV",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
-    "note": "Căn cứ pháp lý liên quan sự kiện.",
-    "confidence": "MEDIUM",
-    "otherAxes": null,
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 435
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11513,18 +10593,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-IN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 360,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 436
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11533,18 +10613,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 361,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 437
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11553,18 +10633,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OUT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 362,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 438
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11573,18 +10653,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 363,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 439
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11593,18 +10673,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-TRANSFER-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 364,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 440
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11613,18 +10693,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 365,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 441
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11633,18 +10713,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 366,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 442
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11653,18 +10733,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 367,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 443
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11673,18 +10753,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 368,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 444
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11693,18 +10773,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-EXC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 369,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 445
+    ]
   },
   {
     "source": "LB-REG-VSDC-MEM",
@@ -11713,18 +10793,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.\n\nCăn cứ pháp lý neo (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 370,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Căn cứ pháp lý neo (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 446
+    ]
   },
   {
     "source": "ST-BHXH-LOCAL",
@@ -11733,18 +10813,18 @@ export const RAW_EDGES = [
     "target": "DOC-BHXH-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 447
+    "order": 371,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "ST-DOF-PROV",
@@ -11753,16 +10833,16 @@ export const RAW_EDGES = [
     "target": "EV-CAP-INC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 448
+    "order": 372,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-DOF-PROV",
@@ -11771,16 +10851,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 449
+    "order": 373,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-DOF-PROV",
@@ -11789,18 +10869,18 @@ export const RAW_EDGES = [
     "target": "DOC-ART-01",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 374,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-ART-01: Đổi logic sang AX-GOV; giữ như supporting internal doc cho event thay đổi, không coi là supervisory routine item.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 450
+    ]
   },
   {
     "source": "ST-DOF-PROV",
@@ -11809,18 +10889,18 @@ export const RAW_EDGES = [
     "target": "DOC-ENT-ERC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 375,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 451
+    ]
   },
   {
     "source": "ST-DOF-PROV",
@@ -11829,17 +10909,17 @@ export const RAW_EDGES = [
     "target": "PR-ENT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
     "confidence": "MEDIUM",
     "otherAxes": "AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 452
+    "order": 376,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11848,16 +10928,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 453
+    "order": 377,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11866,16 +10946,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-AML",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 454
+    "order": 378,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11884,16 +10964,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-BOND",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 455
+    "order": 379,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11902,16 +10982,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-LABOR",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 456
+    "order": 380,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11920,16 +11000,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-SEC-155",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 457
+    "order": 381,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11938,16 +11018,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-SEC-156",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 458
+    "order": 382,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-GOVINSPECT",
@@ -11956,16 +11036,16 @@ export const RAW_EDGES = [
     "target": "LB-DEC-TAX",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Văn bản Chính phủ/Bộ ngành — tham chiếu khung giám sát.",
     "confidence": "LOW",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 459
+    "order": 383,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -11974,16 +11054,16 @@ export const RAW_EDGES = [
     "target": "LB-REG-HNX-LIST",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "HNX ban hành/áp dụng quy chế niêm yết/giao dịch.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 460
+    "order": 384,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -11992,16 +11072,16 @@ export const RAW_EDGES = [
     "target": "EV-BIZ-ADD",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 461
+    "order": 385,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12010,16 +11090,16 @@ export const RAW_EDGES = [
     "target": "EV-CAP-INC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 462
+    "order": 386,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12028,16 +11108,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 463
+    "order": 387,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12046,16 +11126,16 @@ export const RAW_EDGES = [
     "target": "EV-PROD-NEW",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 464
+    "order": 388,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12064,16 +11144,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 465
+    "order": 389,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12082,19 +11162,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HNX",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 390,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-MEM-HNX: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HNX.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 466
+    ]
   },
   {
     "source": "ST-HNX",
@@ -12103,18 +11183,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-GOV-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 391,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 467
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12123,16 +11203,16 @@ export const RAW_EDGES = [
     "target": "LB-REG-HOSE-LIST",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "HOSE ban hành/áp dụng quy chế niêm yết/giao dịch.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 468
+    "order": 392,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12141,16 +11221,16 @@ export const RAW_EDGES = [
     "target": "EV-BIZ-ADD",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 469
+    "order": 393,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12159,16 +11239,16 @@ export const RAW_EDGES = [
     "target": "EV-CAP-INC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 470
+    "order": 394,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12177,16 +11257,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 471
+    "order": 395,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12195,16 +11275,16 @@ export const RAW_EDGES = [
     "target": "EV-PROD-NEW",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 472
+    "order": 396,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12213,16 +11293,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 473
+    "order": 397,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-HOSE",
@@ -12231,19 +11311,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-HOSE",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 398,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-MEM-HOSE: Giữ AX-SUP; AX-CON; AX-SRV và ghi rõ đây là bộ hồ sơ riêng của HOSE.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 474
+    ]
   },
   {
     "source": "ST-LABOR-LOCAL",
@@ -12252,18 +11332,18 @@ export const RAW_EDGES = [
     "target": "DOC-LABOR-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-EMP"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-LABOR-REPORT: Đổi trục chính sang AX-EMP; vẫn cross-reference AX-SUP.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-EMP",
+    "otherAxes": "AX-EMP; AX-COM",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 475
+    "order": 399,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-EMP",
+      "AX-SUP",
+      "AX-COM"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12272,16 +11352,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-LABOR",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 476
+    "order": 400,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12290,16 +11370,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-SBV-PAY",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 477
+    "order": 401,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12308,16 +11388,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-SEC-DEPOSIT",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 478
+    "order": 402,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12326,16 +11406,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-SEC-DISC",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 479
+    "order": 403,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12344,16 +11424,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-SEC-FIRM",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 480
+    "order": 404,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12362,16 +11442,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-SEC-TRAD",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 481
+    "order": 405,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-MOF",
@@ -12380,37 +11460,16 @@ export const RAW_EDGES = [
     "target": "LB-CIR-TAX",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Bộ Tài chính ban hành/điều hành thông tư (mức khung).",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 482
-  },
-  {
-    "source": "ST-SBV",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-MEM-PAYBANK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 406,
     "primaryAxis": "AX-SUP",
     "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-CON",
-      "AX-SRV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-MEM-PAYBANK: Làm rõ đây là hồ sơ mở/đóng TK thanh toán + kết nối ngân hàng thanh toán.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 483
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12419,16 +11478,16 @@ export const RAW_EDGES = [
     "target": "LB-REG-SBV-AML",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "NHNN/FIU ban hành quy định AML áp dụng cho CTCK.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 484
+    "order": 407,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12437,16 +11496,16 @@ export const RAW_EDGES = [
     "target": "EV-PROD-NEW",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 485
+    "order": 408,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12455,18 +11514,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 409,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 486
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12475,18 +11534,18 @@ export const RAW_EDGES = [
     "target": "DOC-AML-REPORT",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 410,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 487
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12495,18 +11554,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-KYC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 411,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 488
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12515,18 +11574,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-MON-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 412,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 489
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12535,18 +11594,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-RISK-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 413,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 490
+    ]
   },
   {
     "source": "ST-SBV-AML",
@@ -12555,18 +11614,18 @@ export const RAW_EDGES = [
     "target": "PR-AML-SANCTION-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 414,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 491
+    ]
   },
   {
     "source": "ST-SBV-BRANCH",
@@ -12575,16 +11634,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 492
+    "order": 415,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12593,16 +11652,16 @@ export const RAW_EDGES = [
     "target": "LB-REG-SSC-REP",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "SSC ban hành/áp dụng quy định về báo cáo/giám sát/thanh tra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 493
+    "order": 416,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12611,16 +11670,16 @@ export const RAW_EDGES = [
     "target": "EV-BIZ-ADD",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 494
+    "order": 417,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12629,16 +11688,16 @@ export const RAW_EDGES = [
     "target": "EV-CAP-INC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 495
+    "order": 418,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12647,16 +11706,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 496
+    "order": 419,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12665,16 +11724,16 @@ export const RAW_EDGES = [
     "target": "EV-PROD-NEW",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 497
+    "order": 420,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12683,56 +11742,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 498
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-DISC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 421,
     "primaryAxis": "AX-SUP",
     "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-DISC-ADHOC: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 499
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-DISC-REGULAR",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-DISC-REGULAR: Đổi sang logic multi-recipient (SSC + Sở liên quan), bổ sung AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 500
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12741,94 +11760,18 @@ export const RAW_EDGES = [
     "target": "DOC-FS-AUDIT",
     "targetType": "DOC",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
     "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
+    "otherAxes": "AX-COM; AX-GOV",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 501
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-INSP-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-INSP-DEC: Khái quát lại theo logic đa cơ quan (SSC/Tax/BHXH/Thanh tra...).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 502
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-INSP-EXPLAIN",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-INSP-EXPLAIN: Khái quát lại theo logic đa cơ quan; nêu rõ có thể phát sinh yêu cầu cung cấp hồ sơ từ cơ quan khác.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 503
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-INSP-WORK",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-INSP-WORK: Khái quát lại theo logic đa cơ quan (không chỉ chứng khoán).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 504
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-REP-SSC-ADHOC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
+    "order": 422,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-REP-SSC-ADHOC: Đổi tên logic sang báo cáo/giải trình theo yêu cầu cơ quan quản lý nói chung.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 505
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12837,56 +11780,18 @@ export const RAW_EDGES = [
     "target": "DOC-REP-SSC-PER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 423,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 506
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-SANC-DEC",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-SANC-DEC: Khái quát lại theo logic đa cơ quan xử phạt.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 507
-  },
-  {
-    "source": "ST-SSC",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-SANC-REMEDY",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-SANC-REMEDY: Khái quát lại theo logic đa cơ quan và gắn compliance/governance.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 508
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12895,18 +11800,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-BIZ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 424,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 509
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12915,18 +11820,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-CAP",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 425,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 510
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12935,18 +11840,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-HQ",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 426,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 511
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12955,18 +11860,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAIN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 427,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 512
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12975,18 +11880,18 @@ export const RAW_EDGES = [
     "target": "DOC-SEC-LIC-MAN",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 428,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-SEC-LIC-MAN: Giữ phần regulatory ở AX-SUP; ghi rõ tài liệu nhân sự nội bộ tách sang AX-GOV.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 513
+    ]
   },
   {
     "source": "ST-SSC",
@@ -12995,17 +11900,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-CLIENT-TC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 429,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 514
+      "AX-COM",
+      "AX-CON",
+      "AX-SRV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13014,17 +11921,19 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-PROD-APPROVAL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 430,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-TBD-PROD-APPROVAL: Đổi thành internal approval doc; xếp chính ở AX-GOV/AX-SRV, chỉ cross-reference sang AX-SUP.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 515
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13033,17 +11942,18 @@ export const RAW_EDGES = [
     "target": "DOC-TBD-REG-REG",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 431,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 516
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13052,18 +11962,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-FREEZE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 432,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 517
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13072,18 +11982,18 @@ export const RAW_EDGES = [
     "target": "PR-DISC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 433,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 518
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13092,17 +12002,18 @@ export const RAW_EDGES = [
     "target": "PR-FS-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 434,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 519
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13111,18 +12022,18 @@ export const RAW_EDGES = [
     "target": "PR-GOV-REP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 435,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 520
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13131,17 +12042,18 @@ export const RAW_EDGES = [
     "target": "PR-INSP-COORD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 436,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 521
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13150,18 +12062,19 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-GEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 437,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
+      "AX-GOV",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 522
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13170,18 +12083,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-ADHOC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 438,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 523
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13190,18 +12103,18 @@ export const RAW_EDGES = [
     "target": "PR-REP-SSC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 439,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 524
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13210,17 +12123,19 @@ export const RAW_EDGES = [
     "target": "PR-RISK-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 440,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 525
+      "AX-COM",
+      "AX-GOV",
+      "AX-SRV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13229,17 +12144,18 @@ export const RAW_EDGES = [
     "target": "PR-SANC-REMEDY-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 441,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 526
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13248,17 +12164,18 @@ export const RAW_EDGES = [
     "target": "PR-SEC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 442,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 527
+      "AX-COM",
+      "AX-GOV"
+    ]
   },
   {
     "source": "ST-SSC",
@@ -13267,18 +12184,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-NEWBIZ-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 443,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 528
+    ]
   },
   {
     "source": "ST-STATEAUDIT",
@@ -13287,16 +12204,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 529
+    "order": 444,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-TAX-LOCAL",
@@ -13305,16 +12222,16 @@ export const RAW_EDGES = [
     "target": "EV-CAP-INC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 530
+    "order": 445,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-TAX-LOCAL",
@@ -13323,16 +12240,16 @@ export const RAW_EDGES = [
     "target": "EV-HQ-CHANGE",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 531
+    "order": 446,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-TAX-LOCAL",
@@ -13341,18 +12258,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-DECL",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 447,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-TAX-DECL: Đổi mô tả sang nghĩa vụ thuế định kỳ (kê khai/quyết toán/báo cáo).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 532
+    ]
   },
   {
     "source": "ST-TAX-LOCAL",
@@ -13361,57 +12278,18 @@ export const RAW_EDGES = [
     "target": "DOC-TAX-REGISTER",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 448,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 533
-  },
-  {
-    "source": "ST-VNX",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-REP-EXC-PER",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-REP-EXC-PER: Đổi sang logic multi-stakeholder (HOSE/HNX/VSDC), bổ sung AX-GOV trong AXIS_FINAL.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 534
-  },
-  {
-    "source": "ST-VNX",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "DOC-TBD-UPDATE-OTHERS",
-    "targetType": "DOC",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).\n\nLiên quan DOC-TBD-UPDATE-OTHERS: Đổi sang logic multi-stakeholder, ghi rõ bộ hồ sơ tách riêng theo từng đơn vị nhận.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 535
+    ]
   },
   {
     "source": "ST-VNX",
@@ -13420,18 +12298,18 @@ export const RAW_EDGES = [
     "target": "PR-BOND-CORP-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 449,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 536
+    ]
   },
   {
     "source": "ST-VNX",
@@ -13440,18 +12318,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-ACCESS-TRAD-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 450,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 537
+    ]
   },
   {
     "source": "ST-VNX",
@@ -13460,18 +12338,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 451,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 538
+    ]
   },
   {
     "source": "ST-VNX",
@@ -13480,38 +12358,18 @@ export const RAW_EDGES = [
     "target": "PR-IT-INCIDENT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 452,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 539
-  },
-  {
-    "source": "ST-VNX",
-    "sourceType": "ST",
-    "relation": "SUPERVISES/RECEIVES",
-    "target": "PR-REP-EXC-01",
-    "targetType": "PR",
-    "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP",
-      "AX-COM",
-      "AX-GOV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-GOV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 540
+    ]
   },
   {
     "source": "ST-VNX",
@@ -13520,18 +12378,18 @@ export const RAW_EDGES = [
     "target": "PR-TRADING-ERROR-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 453,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 541
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13540,16 +12398,16 @@ export const RAW_EDGES = [
     "target": "LB-REG-VSDC-MEM",
     "targetType": "LB",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "VSDC ban hành/áp dụng quy chế thành viên/lưu ký/bù trừ.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 542
+    "order": 454,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13558,16 +12416,16 @@ export const RAW_EDGES = [
     "target": "EV-BIZ-ADD",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 543
+    "order": 455,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13576,16 +12434,16 @@ export const RAW_EDGES = [
     "target": "EV-PROD-NEW",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 544
+    "order": 456,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13594,16 +12452,16 @@ export const RAW_EDGES = [
     "target": "EV-SANC",
     "targetType": "EV",
     "axis": "AX-SUP",
-    "primaryAxis": "AX-SUP",
-    "axisList": [
-      "AX-SUP"
-    ],
     "note": "Stakeholder tham gia/giám sát khi sự kiện xảy ra.",
     "confidence": "MEDIUM",
     "otherAxes": null,
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 545
+    "order": 457,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP"
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13612,19 +12470,19 @@ export const RAW_EDGES = [
     "target": "DOC-MEM-VSDC",
     "targetType": "DOC",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nĐầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 458,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-CON",
       "AX-SRV"
-    ],
-    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ (gợi ý).",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-CON; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 546
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13633,18 +12491,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CHANGE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 459,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 547
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13653,18 +12511,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-CLOSE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 460,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 548
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13673,18 +12531,18 @@ export const RAW_EDGES = [
     "target": "PR-AC-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 461,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 549
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13693,18 +12551,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-IN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 462,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 550
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13713,18 +12571,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OPEN-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 463,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 551
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13733,18 +12591,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-OUT-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 464,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 552
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13753,18 +12611,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 465,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 553
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13773,18 +12631,18 @@ export const RAW_EDGES = [
     "target": "PR-DEP-TRANSFER-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 466,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 554
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13793,18 +12651,18 @@ export const RAW_EDGES = [
     "target": "PR-DER-AC-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 467,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
-    "confidence": "MEDIUM",
-    "otherAxes": "AX-COM; AX-SRV",
-    "checkStatus": "NOT_CHECKED",
-    "comments": null,
-    "order": 555
+    ]
   },
   {
     "source": "ST-VSDC",
@@ -13813,17 +12671,3892 @@ export const RAW_EDGES = [
     "target": "PR-DER-SETTLE-01",
     "targetType": "PR",
     "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.\n\nCơ quan/SRO liên quan chính khi vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 468,
     "primaryAxis": "AX-SUP",
     "axisList": [
       "AX-SUP",
       "AX-COM",
       "AX-SRV"
-    ],
-    "note": "Cơ quan/SRO liên quan chính khi vận hành quy trình.",
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "RELATED_TO",
+    "target": "LB-CIR-SBV-PAY",
+    "targetType": "LB",
+    "axis": "AX-SUP",
+    "note": "Ngân hàng thanh toán chịu/áp dụng khung pháp lý ngân hàng thanh toán và AML.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 469,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "RELATED_TO",
+    "target": "LB-LAW-SBV",
+    "targetType": "LB",
+    "axis": "AX-SUP",
+    "note": "Ngân hàng thanh toán chịu/áp dụng khung pháp lý ngân hàng thanh toán và AML.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 470,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "RELATED_TO",
+    "target": "LB-REG-SBV-AML",
+    "targetType": "LB",
+    "axis": "AX-SUP",
+    "note": "Ngân hàng thanh toán chịu/áp dụng khung pháp lý ngân hàng thanh toán và AML.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 471,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 472,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 473,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 474,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 475,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 476,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 477,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-INSP-COORD-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 478,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-BHXH-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-SANC-REMEDY-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 479,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-GOVINSPECT",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-INSP-COORD-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 480,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-GOVINSPECT",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-SANC-REMEDY-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 481,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HNX",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 482,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HNX",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 483,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HNX",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-HNX-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 484,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HNX",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-HNX-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 485,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HNX",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-REP-EXC-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 486,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HOSE",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 487,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HOSE",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 488,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HOSE",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-HOSE-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 489,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HOSE",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-HOSE-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 490,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-HOSE",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-REP-EXC-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 491,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 492,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 493,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 494,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 495,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 496,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-LABOR-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 497,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-PAYBANK-ACCT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 498,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-CON"
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-PAYBANK-CONNECT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 499,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "ST-PAYBANK",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-PAYBANK",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 500,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "ST-SBV",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 501,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SBV-BRANCH",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 502,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 503,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 504,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 505,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-EXPLAIN-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 506,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-WORK-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 507,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-ADHOC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 508,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 509,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-SSC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 510,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 511,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-EXPLAIN-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 512,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-INSP-WORK-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 513,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-ADHOC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 514,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 515,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-SANC-REMEDY-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 516,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-INSP-COORD-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 517,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-TAX-LOCAL",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-SANC-REMEDY-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 518,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-VSDC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-REP-VSDC-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 519,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-VSDC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 520,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "ST-VSDC",
+    "sourceType": "ST",
+    "relation": "SUPERVISES/RECEIVES",
+    "target": "PR-REP-EXC-01",
+    "targetType": "PR",
+    "axis": "AX-SUP",
+    "note": "Đầu mối tiếp nhận/kiểm tra hồ sơ hoặc giám sát quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 521,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 522,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 523,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 524,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 525,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 526,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 527,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SBV-PAY",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-PAYBANK-ACCT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 528,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-CON"
+    ]
+  },
+  {
+    "source": "LB-CIR-SBV-PAY",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-PAYBANK-CONNECT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 529,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SBV-PAY",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-PAYBANK",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 530,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SBV-PAY",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 531,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DEPOSIT",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-VSDC-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 532,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DEPOSIT",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 533,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 534,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 535,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 536,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 537,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 538,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HNX-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 539,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HOSE-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 540,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-SEC-DISC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 541,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 542,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 543,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 544,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 545,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 546,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-CIR-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 547,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 548,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 549,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 550,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 551,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 552,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 553,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 554,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 555,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 556,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 557,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 558,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HNX-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 559,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HOSE-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 560,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-VSDC-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 561,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HNX-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 562,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HOSE-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 563,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-155",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 564,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-156",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 565,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-156",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 566,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-156",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 567,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-156",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 568,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-SEC-156",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 569,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 570,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 571,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 572,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 573,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 574,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-DEC-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 575,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 576,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 577,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 578,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 579,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 580,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-LABOR",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 581,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SBV",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-PAYBANK-ACCT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-CON",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 582,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-CON"
+    ]
+  },
+  {
+    "source": "LB-LAW-SBV",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-PAYBANK-CONNECT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 583,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SBV",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-PAYBANK",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 584,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SBV",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 585,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 586,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 587,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 588,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 589,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 590,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 591,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 592,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 593,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HNX-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 594,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HOSE-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 595,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-VSDC-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 596,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 597,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 598,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HNX-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 599,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HOSE-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 600,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SEC",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 601,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 602,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 603,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 604,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 605,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 606,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-SOCIAL",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 607,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 608,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 609,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 610,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 611,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 612,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-LAW-TAX",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 613,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HNX-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 614,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HNX-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 615,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HNX-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HNX-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 616,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HNX-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HNX-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 617,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HOSE-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 618,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HOSE-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 619,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HOSE-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-HOSE-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 620,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-HOSE-LIST",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-HOSE-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 621,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SBV-AML",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-PAYBANK-CONNECT",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 622,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-REG-SBV-AML",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-PAYBANK",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 623,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "LB-REG-SBV-AML",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-CON; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 624,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-CON",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 625,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 626,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 627,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-EXPLAIN-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 628,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-INSP-WORK-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 629,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-ADHOC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 630,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-SSC-REP",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 631,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-VSDC-MEM",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-REP-VSDC-PER",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 632,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "LB-REG-VSDC-MEM",
+    "sourceType": "LB",
+    "relation": "BASIS_FOR",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Căn cứ pháp lý neo cho hồ sơ/quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 633,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-BIZ-ADD",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
     "confidence": "MEDIUM",
     "otherAxes": "AX-COM; AX-SRV",
     "checkStatus": "NOT_CHECKED",
     "comments": null,
-    "order": 556
+    "order": 634,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-BIZ-ADD",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 635,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-CAP-INC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 636,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-CAP-INC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 637,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 638,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 639,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-UPDATE-HNX-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 640,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-UPDATE-HOSE-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 641,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-UPDATE-PAYBANK",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 642,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-UPDATE-SBV-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 643,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-HQ-CHANGE",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-UPDATE-VSDC-INFO",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 644,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-PROD-NEW",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 645,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-PROD-NEW",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 646,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-PROD-NEW",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-REGULAR-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 647,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-PROD-NEW",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-REGULAR-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-SRV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 648,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-SRV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-EXC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 649,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-DISC-ADHOC-SSC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 650,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 651,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 652,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 653,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-EXPLAIN-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 654,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-EXPLAIN-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 655,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-EXPLAIN-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 656,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-WORK-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 657,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-WORK-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 658,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-INSP-WORK-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 659,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-DEC-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 660,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-DEC-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 661,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-DEC-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 662,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-REMEDY-LABOR",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 663,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-REMEDY-SEC",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 664,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
+  },
+  {
+    "source": "EV-SANC",
+    "sourceType": "EV",
+    "relation": "TRIGGERS",
+    "target": "DOC-SANC-REMEDY-TAX",
+    "targetType": "DOC",
+    "axis": "AX-SUP",
+    "note": "Sự kiện kích hoạt lập/cập nhật hồ sơ hoặc vận hành quy trình.",
+    "confidence": "MEDIUM",
+    "otherAxes": "AX-COM; AX-GOV",
+    "checkStatus": "NOT_CHECKED",
+    "comments": null,
+    "order": 665,
+    "primaryAxis": "AX-SUP",
+    "axisList": [
+      "AX-SUP",
+      "AX-COM",
+      "AX-GOV"
+    ]
   }
 ];
+

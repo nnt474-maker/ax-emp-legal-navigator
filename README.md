@@ -2,7 +2,7 @@
 
 Bộ repo này là phiên bản hợp nhất từ:
 - Repo mô phỏng **Quan hệ lao động (AX-EMP)** hiện có
-- File validation **`PHS_AX-SUP_Validation_FINAL.xlsx`** cho nhánh **Quan hệ giám sát / quy định (AX-SUP)**
+- File validation **`PHS_AX-SUP_Validation_Submit_v4.xlsx`** cho nhánh **Quan hệ giám sát / quy định (AX-SUP)**
 
 ## Điểm đã hợp nhất
 - Gộp dữ liệu node / edge của **AX-EMP** và **AX-SUP** vào cùng một app ReactFlow
@@ -45,3 +45,8 @@ npm run build
 ## Deploy Cloudflare Pages
 - Build command: `npm run build`
 - Build output directory: `dist`
+
+## Dataset hiện tại
+- Dữ liệu AX-SUP đã cập nhật theo bản `PHS_AX-SUP_Validation_Submit_v4.xlsx`
+- Nodes: 184
+- Edges: 665
